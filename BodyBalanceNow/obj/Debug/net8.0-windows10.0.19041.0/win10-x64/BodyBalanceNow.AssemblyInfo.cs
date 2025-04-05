@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BodyBalanceNow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d000678be31b04a52e61c2b4d00758c64a06b654")]
 [assembly: System.Reflection.AssemblyProductAttribute("BodyBalanceNow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BodyBalanceNow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

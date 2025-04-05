@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\",
+  "WorkspaceRootPath": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\addnewroutinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\gutie\\documents\\github\\bodybalancenow\\bodybalancenow\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\gutie\\documents\\github\\bodybalancenow\\bodybalancenow\\view\\addnewroutinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\addnewroutinepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\MainPage.xaml",
+              "RelativeDocumentMoniker": "BodyBalanceNow\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\MainPage.xaml",
+              "RelativeToolTip": "BodyBalanceNow\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-05T11:04:25.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AddNewRoutinePage.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\AddNewRoutinePage.xaml",
+              "DocumentMoniker": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\View\\AddNewRoutinePage.xaml",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\AddNewRoutinePage.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\AddNewRoutinePage.xaml",
+              "ToolTip": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\View\\AddNewRoutinePage.xaml",
               "RelativeToolTip": "BodyBalanceNow\\View\\AddNewRoutinePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",

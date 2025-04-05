@@ -11036,7 +11036,7 @@
         }
       }
     },
-    "net8.0-android34.0/iossimulator-x64": {
+    "net8.0-android34.0/iossimulator-arm64": {
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -13243,7 +13243,7 @@
         }
       }
     },
-    "net8.0-android34.0/maccatalyst-x64": {
+    "net8.0-android34.0/maccatalyst-arm64": {
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -15450,7 +15450,7 @@
         }
       }
     },
-    "net8.0-android34.0/win10-x64": {
+    "net8.0-android34.0/win10-arm64": {
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -19762,7 +19762,7 @@
         }
       }
     },
-    "net8.0-ios18.0/iossimulator-x64": {
+    "net8.0-ios18.0/iossimulator-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20183,7 +20183,7 @@
         }
       }
     },
-    "net8.0-ios18.0/maccatalyst-x64": {
+    "net8.0-ios18.0/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20604,7 +20604,7 @@
         }
       }
     },
-    "net8.0-ios18.0/win10-x64": {
+    "net8.0-ios18.0/win10-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23130,7 +23130,7 @@
         }
       }
     },
-    "net8.0-maccatalyst18.0/iossimulator-x64": {
+    "net8.0-maccatalyst18.0/iossimulator-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23551,7 +23551,7 @@
         }
       }
     },
-    "net8.0-maccatalyst18.0/maccatalyst-x64": {
+    "net8.0-maccatalyst18.0/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23972,7 +23972,7 @@
         }
       }
     },
-    "net8.0-maccatalyst18.0/win10-x64": {
+    "net8.0-maccatalyst18.0/win10-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27183,7 +27183,7 @@
         }
       }
     },
-    "net8.0-windows10.0.19041/iossimulator-x64": {
+    "net8.0-windows10.0.19041/iossimulator-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27733,7 +27733,7 @@
         }
       }
     },
-    "net8.0-windows10.0.19041/maccatalyst-x64": {
+    "net8.0-windows10.0.19041/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28283,7 +28283,7 @@
         }
       }
     },
-    "net8.0-windows10.0.19041/win10-x64": {
+    "net8.0-windows10.0.19041/win10-arm64": {
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28467,7 +28467,7 @@
           "lib/net6.0-windows10.0.19041.0/Microsoft.Graphics.Canvas.Interop.dll": {}
         },
         "native": {
-          "runtimes/win-x64/native/Microsoft.Graphics.Canvas.dll": {}
+          "runtimes/win-arm64/native/Microsoft.Graphics.Canvas.dll": {}
         },
         "build": {
           "build/net6.0-windows10.0.19041.0/_._": {}
@@ -28831,7 +28831,7 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
         },
         "native": {
-          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
+          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -33161,24 +33161,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samue\\.nuget\\packages\\": {},
+    "C:\\Users\\gutie\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
+      "projectUniqueName": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
       "projectName": "BodyBalanceNow",
-      "projectPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
-      "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\obj\\",
+      "projectPath": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
+      "packagesPath": "C:\\Users\\gutie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gutie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33328,7 +33328,7 @@
             "version": "[18.0.8319, 18.0.8319]"
           },
           {
-            "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
+            "name": "Microsoft.iOS.Runtime.iossimulator-arm64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
           }
         ],
@@ -33382,7 +33382,7 @@
             "version": "[18.0.8319, 18.0.8319]"
           },
           {
-            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
+            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
           }
         ],
@@ -33453,13 +33453,13 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "iossimulator-arm64": {
         "#import": []
       },
-      "maccatalyst-x64": {
+      "maccatalyst-arm64": {
         "#import": []
       },
-      "win10-x64": {
+      "win10-arm64": {
         "#import": []
       }
     }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj": {}
+    "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj": {
+    "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
+        "projectUniqueName": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
         "projectName": "BodyBalanceNow",
-        "projectPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
-        "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\obj\\",
+        "projectPath": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
+        "packagesPath": "C:\\Users\\gutie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gutie\\Documents\\GitHub\\BodyBalanceNow\\BodyBalanceNow\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gutie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -168,7 +168,7 @@
               "version": "[18.0.8319, 18.0.8319]"
             },
             {
-              "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
+              "name": "Microsoft.iOS.Runtime.iossimulator-arm64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
             }
           ],
@@ -222,7 +222,7 @@
               "version": "[18.0.8319, 18.0.8319]"
             },
             {
-              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
+              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
             }
           ],
@@ -293,13 +293,13 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "iossimulator-arm64": {
           "#import": []
         },
-        "maccatalyst-x64": {
+        "maccatalyst-arm64": {
           "#import": []
         },
-        "win10-x64": {
+        "win10-arm64": {
           "#import": []
         }
       }

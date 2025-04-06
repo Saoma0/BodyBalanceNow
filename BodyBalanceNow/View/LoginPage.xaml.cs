@@ -27,7 +27,7 @@ public partial class LoginPage : ContentPage
     // Redirige a la página de registro
     private async void OnLabelTapped(object sender, TappedEventArgs e)
     {
-        await Shell.Current.GoToAsync("//registro"); // Navega hacia la página de registro
+        await Shell.Current.GoToAsync("//RegisterPage"); // Navega hacia la página de registro
     }
 
     // Maneja el inicio de sesión
@@ -55,7 +55,7 @@ public partial class LoginPage : ContentPage
                 Preferences.Set("current_user_id", user.Id);
 
                 // Redirige a la página principal
-                await Shell.Current.GoToAsync("//main");
+                await Shell.Current.GoToAsync("//MainPage");
             }
             else
             {

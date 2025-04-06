@@ -48,12 +48,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.AddNew
 build_metadata.AdditionalFiles.TargetPath = View\AddNewRoutinePage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AddNewRoutinePage.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/CalculadoraIMC.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.CalculadoraIMC.xaml
-build_metadata.AdditionalFiles.TargetPath = View\CalculadoraIMC.xaml
-build_metadata.AdditionalFiles.RelativePath = View\CalculadoraIMC.xaml
-
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/Alertas/PopupAlert.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.Alertas.PopupAlert.xaml
@@ -96,23 +90,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Compon
 build_metadata.AdditionalFiles.TargetPath = View\Components\OptionsPopup.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Components\OptionsPopup.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/CronometroTemporizador.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/CalculadoraIMCAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.CronometroTemporizador.xaml
-build_metadata.AdditionalFiles.TargetPath = View\CronometroTemporizador.xaml
-build_metadata.AdditionalFiles.RelativePath = View\CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.CalculadoraIMCAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\CalculadoraIMCAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\CalculadoraIMCAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/LoginPage.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/LoginPageAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.LoginPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
-
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/RegisterPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.RegisterPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.LoginPageAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\LoginPageAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\LoginPageAndroid.xaml
 
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/MainPageAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -120,8 +108,44 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAn
 build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\MainPageAndroid.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\MainPageAndroid.xaml
 
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/RegisterPageAndroid.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.RegisterPageAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\RegisterPageAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\RegisterPageAndroid.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/TiempoAndroid.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.TiempoAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\TiempoAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\TiempoAndroid.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/CalculadoraIMC.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\CalculadoraIMC.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/CronometroTemporizador.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\CronometroTemporizador.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\LoginPage.xaml
+
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/MainPageWindows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.MainPageWindows.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\MainPageWindows.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\MainPageWindows.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\RegisterPage.xaml

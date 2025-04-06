@@ -76,10 +76,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="View\ViewAndroid\LoginPageAndroid.xaml.cs">
+	    <DependentUpon>LoginPageAndroid.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\ViewAndroid\RegisterPageAndroid.xaml.cs">
+	    <DependentUpon>RegisterPageAndroid.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="View\AddNewRoutinePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\CalculadoraIMC.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\Components\Alertas\PopupAlert.xaml">
@@ -103,16 +109,31 @@
 	  <MauiXaml Update="View\Components\OptionsPopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\CronometroTemporizador.xaml">
+	  <MauiXaml Update="View\ViewAndroid\LoginPageAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\LoginPage.xaml">
+	  <MauiXaml Update="View\ViewAndroid\RegisterPageAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\RegisterPage.xaml">
+	  <MauiXaml Update="View\ViewWindows\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\RegisterPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\CalculadoraIMCAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ViewAndroid\MainPageAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\TiempoAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\CalculadoraIMC.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\CronometroTemporizador.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ViewWindows\MainPageWindows.xaml">

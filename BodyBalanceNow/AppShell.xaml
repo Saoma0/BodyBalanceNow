@@ -22,25 +22,25 @@
         <ShellContent
             Title="IMC"
             Icon="scale.png"
-            ContentTemplate="{DataTemplate views:CalculadoraIMC}"
+            x:Name="IMCTab"
             Route="CalculadoraIMC" />
 
         <ShellContent
             Title="Tiempo"
             Icon="timer.png"
-            ContentTemplate="{DataTemplate views:CronometroTemporizador}"
+            x:Name="TiempoTab"
             Route="CronometroTemporizador" />
 
         <ShellContent
+            x:Name="LoginTab"
             Title="Login"
             Icon="login.png"
-            ContentTemplate="{DataTemplate views:LoginPage}"
             Route="LoginPage" />
 
         <ShellContent
             Title="Registro"
             Icon="userplus.png"
-            ContentTemplate="{DataTemplate views:RegisterPage}"
+            x:Name="RegistroTab"
             Route="RegisterPage" />
     </TabBar>
 </Shell>

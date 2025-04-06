@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ur="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             x:Class="BodyBalanceNow.View.ViewAndroid.RegisterPageAndroid"
+             BackgroundColor="#EFF4F7"
+             Title="RegisterPage">
+
+    <ScrollView>
+        <Grid Padding="30"
+              RowDefinitions="Auto, *"
+              RowSpacing="20" 
+            VerticalOptions="CenterAndExpand"
+              HorizontalOptions="Center">
+            <Frame HeightRequest="200"
+                   CornerRadius="20"
+                   Padding="0"
+                   HasShadow="False"
+                   Grid.Row="0">
+                <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#FFE082" Offset="0.0" />
+                        <GradientStop Color="#FFB300" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <VerticalStackLayout Padding="45"
+                                     VerticalOptions="Center"
+                                     HorizontalOptions="Center">
+                    <Label Text="¡Bienvenido!"
+                           FontSize="32"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           HorizontalOptions="Center" />
+                    <Label Text="Crea una cuenta para comenzar tu camino hacia una vida más saludable."
+                           FontSize="17"
+                           TextColor="White"
+                           Opacity="0.9"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,10,0,0" />
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="White"
+                   CornerRadius="25"
+                   HasShadow="True"
+                   Padding="30"
+                   Grid.Row="1">
+                <VerticalStackLayout Spacing="25"
+                                     VerticalOptions="Center">
+                    <Label Text="Crear Cuenta"
+                           FontSize="34"
+                           FontAttributes="Bold"
+                           TextColor="#4E342E"
+                           HorizontalOptions="Center" />
+                    <Grid ColumnDefinitions="Auto,*"
+                          HeightRequest="60"
+                          VerticalOptions="Center">
+                        <Image Source="usuario.png"
+                               HeightRequest="30"
+                               WidthRequest="30"
+                               VerticalOptions="Center"
+                               Margin="0,0,10,0"
+                               Grid.Column="0" />
+                        <ur:TextField x:Name="entryNameUser"
+                                      Title="Nombre de Usuario"
+                                      AllowClear="True"
+                                      AccentColor="#FFB300"
+                                      BorderColor="#E0E0E0"
+                                      CornerRadius="12"
+                                      Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="Auto,*"
+                          HeightRequest="60"
+                          VerticalOptions="Center">
+                        <Image Source="email.png"
+                               HeightRequest="30"
+                               WidthRequest="30"
+                               VerticalOptions="Center"
+                               Margin="0,0,10,0"
+                               Grid.Column="0" />
+                        <ur:TextField x:Name="entryEmail"
+                                      Title="Email (@tfg.vi)"
+                                      AllowClear="True"
+                                      AccentColor="#FFB300"
+                                      BorderColor="#E0E0E0"
+                                      CornerRadius="12"
+                                      Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="Auto,*,Auto"
+                          HeightRequest="60"
+                          VerticalOptions="Center">
+                        <Image Source="candado.png"
+                               HeightRequest="30"
+                               WidthRequest="30"
+                               VerticalOptions="Center"
+                               Margin="0,0,10,0"
+                               Grid.Column="0" />
+                        <ur:TextField x:Name="entryPassword"
+                                      Title="Contraseña"
+                                      IsPassword="True"
+                                      AllowClear="True"
+                                      AccentColor="#FFB300"
+                                      BorderColor="#E0E0E0"
+                                      CornerRadius="12"
+                                      Grid.Column="1" />
+                        <ImageButton Source="ojo.png"
+                                     BackgroundColor="Transparent"
+                                     Clicked="OnHiddenPassword"
+                                     HeightRequest="30"
+                                     WidthRequest="30"
+                                     VerticalOptions="Center"
+                                     Grid.Column="2" />
+                    </Grid>
+                    <Button Text="Registrarse"
+                            Clicked="OnRegisterUser"
+                            BackgroundColor="#FFB300"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="28"
+                            HeightRequest="55"
+                            WidthRequest="180"
+                            HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

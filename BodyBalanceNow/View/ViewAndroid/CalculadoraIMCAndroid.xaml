@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewAndroid.CalculadoraIMCAndroid"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             BackgroundColor="#F0F4F8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- FORMULARIO -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="25"
+                   Padding="25"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="20">
+
+                    <Label Text="Calculadora de IMC"
+                           FontSize="28"
+                           TextColor="#2C3E50"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold" />
+
+                    <material:DropdownField x:Name="unidadPicker"
+                                            Title="Unidad de altura"
+                                            BackgroundColor="#F9FAFB">
+                        <material:DropdownField.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Metros ej: 1.75</x:String>
+                                <x:String>Centímetros ej: 175</x:String>
+                            </x:Array>
+                        </material:DropdownField.ItemsSource>
+                    </material:DropdownField>
+
+                    <material:TextField x:Name="alturaEntry"
+                                        Title="Altura"
+                                        Keyboard="Numeric"
+                                        BackgroundColor="#F9FAFB"
+                                        CornerRadius="10" />
+
+                    <material:TextField x:Name="pesoEntry"
+                                        Title="Peso en kg"
+                                        Keyboard="Numeric"
+                                        BackgroundColor="#F9FAFB"
+                                        CornerRadius="10" />
+
+                    <Button Text="Calcular IMC"
+                            StyleClass="ElevatedButton"
+                            BackgroundColor="#34C759"
+                            TextColor="White"
+                            CornerRadius="15"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            Padding="15,10"
+                            Clicked="CalcularIMC" />
+
+                    <Label x:Name="mensajeNoSesion"
+                           Text="Debes iniciar sesión para calcular y guardar tu IMC."
+                           FontSize="14"
+                           TextColor="#E74C3C"
+                           IsVisible="False"
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- RESULTADO -->
+            <Frame x:Name="resultadoFrame"
+                   IsVisible="False"
+                   CornerRadius="15"
+                   Padding="25"
+                   HasShadow="True"
+                   BackgroundColor="#FFFFFF"
+                   BorderColor="#E0E0E0">
+
+                <VerticalStackLayout Spacing="15" HorizontalOptions="Center">
+                    <Label x:Name="resultadoLabel"
+                           FontSize="20"
+                           TextColor="#2C3E50"
+                           HorizontalTextAlignment="Center"
+                           FontAttributes="Bold" />
+
+                    <Button x:Name="guardarIMCDB"
+                            IsVisible="False"
+                            Text="Guardar en historial"
+                            BackgroundColor="#3498DB"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="12"
+                            Padding="15,10"
+                            Clicked="GuardarIMC" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- LEYENDA + HISTORIAL -->
+            <Frame BackgroundColor="White"
+                   Padding="20"
+                   CornerRadius="20"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Clasificación IMC"
+                           FontAttributes="Bold"
+                           FontSize="24"
+                           HorizontalOptions="Center"
+                           TextColor="#2C3E50" />
+
+                    <BoxView HeightRequest="1" Color="#E0E0E0" Margin="0,10"/>
+
+                    <!-- Leyenda -->
+                    <Grid ColumnDefinitions="20,*" Margin="0,5">
+                        <BoxView Color="#F39C12" WidthRequest="14" HeightRequest="14" CornerRadius="7" VerticalOptions="Center" />
+                        <Label Text="Bajo peso (- 18.5)" TextColor="#34495E" FontSize="15" Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="20,*" Margin="0,5">
+                        <BoxView Color="#27AE60" WidthRequest="14" HeightRequest="14" CornerRadius="7" VerticalOptions="Center" />
+                        <Label Text="Normal (18.5 – 24.9)" TextColor="#34495E" FontSize="15" FontAttributes="Bold" Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="20,*" Margin="0,5">
+                        <BoxView Color="#F1C40F" WidthRequest="14" HeightRequest="14" CornerRadius="7" VerticalOptions="Center" />
+                        <Label Text="Sobrepeso (25 – 29.9)" TextColor="#34495E" FontSize="15" Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="20,*" Margin="0,5">
+                        <BoxView Color="#E67E22" WidthRequest="14" HeightRequest="14" CornerRadius="7" VerticalOptions="Center" />
+                        <Label Text="Obesidad I (30 – 34.9)" TextColor="#34495E" FontSize="15" Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="20,*" Margin="0,5">
+                        <BoxView Color="#D35400" WidthRequest="14" HeightRequest="14" CornerRadius="7" VerticalOptions="Center" />
+                        <Label Text="Obesidad II (35 – 39.9)" TextColor="#34495E" FontSize="15" Grid.Column="1" />
+                    </Grid>
+                    <Grid ColumnDefinitions="20,*" Margin="0,5">
+                        <BoxView Color="#C0392B" WidthRequest="14" HeightRequest="14" CornerRadius="7" VerticalOptions="Center" />
+                        <Label Text="Obesidad III (+ 40)" TextColor="#34495E" FontSize="15" Grid.Column="1" />
+                    </Grid>
+
+                    <BoxView HeightRequest="1" Color="#E0E0E0" Margin="0,15"/>
+
+                    <!-- HISTORIAL -->
+                    <Label x:Name="historialTitleLabel"
+                           Text="Historial de IMC"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2C3E50"
+                           IsVisible="False"
+                           HorizontalOptions="Center" />
+
+                    <CollectionView x:Name="historialIMCCollection"
+                                    HeightRequest="150"
+                                    VerticalOptions="FillAndExpand"
+                                    ItemsSource="{Binding RegistrosIMC}"
+                                    EmptyView="No hay registros de IMC aún.">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid ColumnDefinitions="*,Auto" Padding="5,8">
+                                    <StackLayout Orientation="Vertical" Spacing="2">
+                                        <Label Text="{Binding FechaRegistro, StringFormat='Fecha: {0:dd/MM/yyyy}'}"
+                                               FontSize="14" FontAttributes="Bold" TextColor="#1F2A44" />
+                                        <Label Text="{Binding IMC, StringFormat='IMC: {0:F2}'}"
+                                               FontSize="12" TextColor="#64748B" />
+                                    </StackLayout>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

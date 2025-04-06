@@ -15,6 +15,7 @@
           "Microsoft.Maui.Controls": "8.0.100",
           "Microsoft.Maui.Controls.Compatibility": "8.0.100",
           "MySql.Data": "9.2.0",
+          "Plugin.Maui.Audio": "3.1.1",
           "UraniumUI.Material": "2.11.0",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
@@ -586,6 +587,17 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
       "runtime.any.System.IO/4.3.0": {},
       "runtime.any.System.Reflection/4.3.0": {},
       "runtime.any.System.Reflection.Primitives/4.3.0": {},
@@ -1050,6 +1062,13 @@
       "sha512": "sha512-rou+ErJ0l2GkJyMYRKtPiPxEtOGngj7Lv7H5NVACG9baPy3D3tGLO5ma16Usem5/vddu8Ov6bZaXntPMQANXQw==",
       "path": "plainer.maui/1.7.1",
       "hashPath": "plainer.maui.1.7.1.nupkg.sha512"
+    },
+    "Plugin.Maui.Audio/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jTsPSwCjGbw8VstgSz8jl/oMetnw5LuKj+BVg3Xs+cv9WOLL7SNPf2J8Z3V9ws8gVw9GzCp50Sz/G9bluUGmsg==",
+      "path": "plugin.maui.audio/3.1.1",
+      "hashPath": "plugin.maui.audio.3.1.1.nupkg.sha512"
     },
     "runtime.any.System.IO/4.3.0": {
       "type": "package",

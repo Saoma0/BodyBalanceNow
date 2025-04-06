@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6+Qmc8B59uQ=",
+  "dgSpecHash": "i1M1FhwxgAg=",
   "success": true,
   "projectFilePath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\BodyBalanceNow.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\samue\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\microsoft.windowsappsdk.1.5.240802000.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\mysql.data\\9.2.0\\mysql.data.9.2.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\plainer.maui\\1.7.1\\plainer.maui.1.7.1.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\plugin.maui.audio\\3.1.1\\plugin.maui.audio.3.1.1.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\runtime.any.system.io\\4.3.0\\runtime.any.system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\runtime.any.system.reflection\\4.3.0\\runtime.any.system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\runtime.any.system.reflection.primitives\\4.3.0\\runtime.any.system.reflection.primitives.4.3.0.nupkg.sha512",

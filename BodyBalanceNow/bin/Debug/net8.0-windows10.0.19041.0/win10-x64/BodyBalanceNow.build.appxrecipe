@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\Resources\Raw\alarma.mp3">
+      <PackagePath>alarma.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -220,14 +223,26 @@
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
       <PackagePath>email.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen_fondo_login2.scale-100.jpg">
-      <PackagePath>imagen_fondo_login2.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\house.scale-100.png">
+      <PackagePath>house.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen_fondo_register2.scale-100.jpg">
-      <PackagePath>imagen_fondo_register2.scale-100.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png">
+      <PackagePath>login.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ojo.scale-100.png">
       <PackagePath>ojo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\scale.scale-100.png">
+      <PackagePath>scale.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stopwatch.scale-100.png">
+      <PackagePath>stopwatch.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timer.scale-100.png">
+      <PackagePath>timer.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\userplus.scale-100.png">
+      <PackagePath>userplus.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuario.scale-100.png">
       <PackagePath>usuario.scale-100.png</PackagePath>
@@ -372,6 +387,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\plainer.maui\1.7.1\lib\net8.0-windows10.0.19041\Plainer.Maui.dll">
       <PackagePath>Plainer.Maui.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\plugin.maui.audio\3.1.1\lib\net8.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll">
       <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>

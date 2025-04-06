@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\components\\exerciselistpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\components\\exerciselistpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\calculadoraimc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\calculadoraimc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\cronometrotemporizador.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\cronometrotemporizador.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\cronometrotemporizador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\cronometrotemporizador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\components\\exerciselistpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\components\\exerciselistpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\calculadoraimc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\calculadoraimc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,59 +82,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CalculadoraIMC.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CalculadoraIMC.xaml",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\CalculadoraIMC.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CalculadoraIMC.xaml",
-              "RelativeToolTip": "BodyBalanceNow\\View\\CalculadoraIMC.xaml",
-              "ViewState": "AgIAALcAAAAAAAAAAAAkwHcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-05T16:08:39.662Z",
+              "DocumentIndex": 3,
+              "Title": "CronometroTemporizador.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CronometroTemporizador.xaml.cs",
+              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\CronometroTemporizador.xaml.cs",
+              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CronometroTemporizador.xaml.cs",
+              "RelativeToolTip": "BodyBalanceNow\\View\\CronometroTemporizador.xaml.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAtwGYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T09:37:22.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RegisterPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\RegisterPage.xaml.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\RegisterPage.xaml.cs",
               "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\RegisterPage.xaml.cs",
               "RelativeToolTip": "BodyBalanceNow\\View\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAD4vz0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAD4v1UAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T21:32:57.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\AppShell.xaml",
               "RelativeDocumentMoniker": "BodyBalanceNow\\AppShell.xaml",
               "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\AppShell.xaml",
               "RelativeToolTip": "BodyBalanceNow\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-05T16:13:47.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ExerciseListPopUp.xaml",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\Components\\ExerciseListPopUp.xaml",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\Components\\ExerciseListPopUp.xaml",
               "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\Components\\ExerciseListPopUp.xaml",
               "RelativeToolTip": "BodyBalanceNow\\View\\Components\\ExerciseListPopUp.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAD4vzkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAD4vyYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-05T22:08:55.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ExerciseListPopUp.xaml.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\Components\\ExerciseListPopUp.xaml.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\Components\\ExerciseListPopUp.xaml.cs",
@@ -139,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\LoginPage.xaml.cs",
               "RelativeToolTip": "BodyBalanceNow\\View\\LoginPage.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA6wCAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T16:13:34.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\Models\\Usuario.cs",
@@ -160,24 +168,51 @@
               "RelativeToolTip": "BodyBalanceNow\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T21:33:30.885Z"
+              "WhenOpened": "2025-04-05T21:33:30.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\LoginPage.xaml",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\LoginPage.xaml",
               "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\LoginPage.xaml",
               "RelativeToolTip": "BodyBalanceNow\\View\\LoginPage.xaml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAIwFgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-05T16:29:27.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "CronometroTemporizador.xaml",
+              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CronometroTemporizador.xaml",
+              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\CronometroTemporizador.xaml",
+              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CronometroTemporizador.xaml",
+              "RelativeToolTip": "BodyBalanceNow\\View\\CronometroTemporizador.xaml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAH8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-06T09:30:38.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalculadoraIMC.xaml",
+              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CalculadoraIMC.xaml",
+              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\CalculadoraIMC.xaml",
+              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CalculadoraIMC.xaml",
+              "RelativeToolTip": "BodyBalanceNow\\View\\CalculadoraIMC.xaml",
+              "ViewState": "AgIAALcAAAAAAAAAAAAkwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-05T16:08:39.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RegisterPage.xaml",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\RegisterPage.xaml",
@@ -185,11 +220,12 @@
               "RelativeToolTip": "BodyBalanceNow\\View\\RegisterPage.xaml",
               "ViewState": "AgIAAF0AAAAAAAAAAAAIwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-05T21:29:22.088Z"
+              "WhenOpened": "2025-04-05T21:29:22.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UsuarioDatabase.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\Services\\UsuarioDatabase.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\Services\\UsuarioDatabase.cs",
@@ -197,11 +233,12 @@
               "RelativeToolTip": "BodyBalanceNow\\Services\\UsuarioDatabase.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAYwF0AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T21:33:38.477Z"
+              "WhenOpened": "2025-04-05T21:33:38.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CalculadoraIMC.xaml.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\CalculadoraIMC.xaml.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\View\\CalculadoraIMC.xaml.cs",
@@ -209,11 +246,12 @@
               "RelativeToolTip": "BodyBalanceNow\\View\\CalculadoraIMC.xaml.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAAAuwLAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:08:40.252Z"
+              "WhenOpened": "2025-04-05T16:08:40.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ExerciseDatabase.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\Services\\ExerciseDatabase.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\Services\\ExerciseDatabase.cs",
@@ -221,11 +259,12 @@
               "RelativeToolTip": "BodyBalanceNow\\Services\\ExerciseDatabase.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:09:26.112Z"
+              "WhenOpened": "2025-04-05T16:09:26.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Authenticacion.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\Services\\Authenticacion.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\Services\\Authenticacion.cs",
@@ -233,11 +272,12 @@
               "RelativeToolTip": "BodyBalanceNow\\Services\\Authenticacion.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:15:26.499Z"
+              "WhenOpened": "2025-04-05T16:15:26.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ProgresoIMC.cs",
               "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\Models\\ProgresoIMC.cs",
               "RelativeDocumentMoniker": "BodyBalanceNow\\Models\\ProgresoIMC.cs",
@@ -245,7 +285,8 @@
               "RelativeToolTip": "BodyBalanceNow\\Models\\ProgresoIMC.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T16:06:37.692Z"
+              "WhenOpened": "2025-04-05T16:06:37.692Z",
+              "EditorCaption": ""
             }
           ]
         }

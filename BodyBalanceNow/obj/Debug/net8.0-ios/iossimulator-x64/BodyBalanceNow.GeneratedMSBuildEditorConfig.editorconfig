@@ -102,6 +102,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Compon
 build_metadata.AdditionalFiles.TargetPath = View\Components\OptionsPopup.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Components\OptionsPopup.xaml
 
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/CronometroTemporizador.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CronometroTemporizador.xaml
+
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.LoginPage.xaml

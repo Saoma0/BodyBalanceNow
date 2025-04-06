@@ -53,9 +53,13 @@ dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
 email.scale-100.png
-imagen_fondo_login2.scale-100.jpg
-imagen_fondo_register2.scale-100.jpg
+house.scale-100.png
+login.scale-100.png
 ojo.scale-100.png
+scale.scale-100.png
+stopwatch.scale-100.png
+timer.scale-100.png
+userplus.scale-100.png
 usuario.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
@@ -63,3 +67,4 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 AboutAssets.txt
+alarma.mp3

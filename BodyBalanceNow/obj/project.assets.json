@@ -646,6 +646,22 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -3316,6 +3332,22 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -5955,6 +5987,22 @@
         "runtime": {
           "lib/net8.0-android34.0/Plainer.Maui.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -8600,6 +8648,22 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -11239,6 +11303,22 @@
         "runtime": {
           "lib/net8.0-android34.0/Plainer.Maui.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -13884,6 +13964,22 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -16526,6 +16622,22 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -19165,6 +19277,22 @@
         "runtime": {
           "lib/net8.0-android34.0/Plainer.Maui.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Plugin.Maui.Audio.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -21826,6 +21954,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -22812,6 +22952,18 @@
           "lib/net8.0-ios17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -23873,6 +24025,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -24930,6 +25094,18 @@
           "lib/net8.0-ios17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -25991,6 +26167,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -27050,6 +27238,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -28107,6 +28307,18 @@
           "lib/net8.0-ios17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -29175,6 +29387,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -30241,6 +30465,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -31227,6 +31463,18 @@
           "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -32288,6 +32536,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -33345,6 +33605,18 @@
           "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -34406,6 +34678,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -35465,6 +35749,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -36522,6 +36818,18 @@
           "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -37588,6 +37896,18 @@
           "lib/net8.0-maccatalyst17.0/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -38826,6 +39146,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -39960,6 +40292,18 @@
           "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -41163,6 +41507,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -42362,6 +42718,18 @@
           "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -43565,6 +43933,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -44766,6 +45146,18 @@
           }
         }
       },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        }
+      },
       "runtime.any.System.IO/4.3.0": {
         "type": "package",
         "compile": {
@@ -45965,6 +46357,18 @@
           "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -47179,6 +47583,18 @@
           "lib/net8.0-windows10.0.19041/Plainer.Maui.dll": {
             "related": ".pdb"
           }
+        }
+      },
+      "Plugin.Maui.Audio/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -50209,6 +50625,25 @@
         "src/Plainer.Maui/obj/Release/net8.0-maccatalyst/Plainer.Maui.nfloat.g.cs",
         "src/Plainer.Maui/obj/Release/net8.0-windows10.0.19041.0/Plainer.Maui.GlobalUsings.g.cs",
         "src/Plainer.Maui/obj/Release/net8.0/Plainer.Maui.GlobalUsings.g.cs"
+      ]
+    },
+    "Plugin.Maui.Audio/3.1.1": {
+      "sha512": "jTsPSwCjGbw8VstgSz8jl/oMetnw5LuKj+BVg3Xs+cv9WOLL7SNPf2J8Z3V9ws8gVw9GzCp50Sz/G9bluUGmsg==",
+      "type": "package",
+      "path": "plugin.maui.audio/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0-android34.0/Plugin.Maui.Audio.dll",
+        "lib/net8.0-android34.0/Plugin.Maui.Audio.xml",
+        "lib/net8.0-ios18.0/Plugin.Maui.Audio.dll",
+        "lib/net8.0-maccatalyst18.0/Plugin.Maui.Audio.dll",
+        "lib/net8.0-windows10.0.19041/Plugin.Maui.Audio.dll",
+        "lib/net8.0/Plugin.Maui.Audio.dll",
+        "plugin.maui.audio.3.1.1.nupkg.sha512",
+        "plugin.maui.audio.nuspec"
       ]
     },
     "runtime.any.System.IO/4.3.0": {
@@ -53529,6 +53964,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.14",
       "MySql.Data >= 9.2.0",
+      "Plugin.Maui.Audio >= 3.1.1",
       "UraniumUI.Material >= 2.11.0"
     ],
     "net8.0-ios18.0": [
@@ -53539,6 +53975,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.14",
       "MySql.Data >= 9.2.0",
+      "Plugin.Maui.Audio >= 3.1.1",
       "UraniumUI.Material >= 2.11.0"
     ],
     "net8.0-maccatalyst18.0": [
@@ -53549,6 +53986,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.14",
       "MySql.Data >= 9.2.0",
+      "Plugin.Maui.Audio >= 3.1.1",
       "UraniumUI.Material >= 2.11.0"
     ],
     "net8.0-windows10.0.19041": [
@@ -53558,6 +53996,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "MySql.Data >= 9.2.0",
+      "Plugin.Maui.Audio >= 3.1.1",
       "UraniumUI.Material >= 2.11.0"
     ]
   },
@@ -53658,6 +54097,10 @@
             "target": "Package",
             "version": "[9.2.0, )"
           },
+          "Plugin.Maui.Audio": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
           "UraniumUI.Material": {
             "target": "Package",
             "version": "[2.11.0, )"
@@ -53739,6 +54182,10 @@
             "target": "Package",
             "version": "[9.2.0, )"
           },
+          "Plugin.Maui.Audio": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
           "UraniumUI.Material": {
             "target": "Package",
             "version": "[2.11.0, )"
@@ -53808,6 +54255,10 @@
             "target": "Package",
             "version": "[9.2.0, )"
           },
+          "Plugin.Maui.Audio": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
           "UraniumUI.Material": {
             "target": "Package",
             "version": "[2.11.0, )"
@@ -53871,6 +54322,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[9.2.0, )"
+          },
+          "Plugin.Maui.Audio": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           },
           "UraniumUI.Material": {
             "target": "Package",

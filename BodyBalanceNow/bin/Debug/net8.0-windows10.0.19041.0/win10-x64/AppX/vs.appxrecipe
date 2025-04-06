@@ -30,29 +30,33 @@
     <AppXManifest Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-06T09:11:57.814</Modified>
+      <Modified>2025-04-06T09:54:22.486</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-05T21:23:57.546</Modified>
+      <Modified>2025-04-06T09:43:35.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BodyBalanceNow.runtimeconfig.json">
       <PackagePath>BodyBalanceNow.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-05T16:10:06.494</Modified>
+      <Modified>2025-04-06T09:43:35.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BodyBalanceNow.dll">
       <PackagePath>BodyBalanceNow.dll</PackagePath>
-      <Modified>2025-04-06T09:11:57.505</Modified>
+      <Modified>2025-04-06T09:54:22.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BodyBalanceNow.exe</PackagePath>
-      <Modified>2025-04-06T09:11:57.507</Modified>
+      <Modified>2025-04-06T09:54:22.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2025-04-04T23:55:29.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\Resources\Raw\alarma.mp3">
+      <PackagePath>alarma.mp3</PackagePath>
+      <Modified>2025-04-06T09:50:46.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -84,235 +88,251 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.063</Modified>
+      <Modified>2025-04-06T09:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.062</Modified>
+      <Modified>2025-04-06T09:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+      <Modified>2025-04-06T09:30:18.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\candado.scale-100.png">
       <PackagePath>candado.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.060</Modified>
+      <Modified>2025-04-06T09:30:18.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.064</Modified>
+      <Modified>2025-04-06T09:30:18.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
       <PackagePath>email.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.060</Modified>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen_fondo_login2.scale-100.jpg">
-      <PackagePath>imagen_fondo_login2.scale-100.jpg</PackagePath>
-      <Modified>2025-04-05T21:22:53.060</Modified>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\house.scale-100.png">
+      <PackagePath>house.scale-100.png</PackagePath>
+      <Modified>2025-04-06T09:30:18.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imagen_fondo_register2.scale-100.jpg">
-      <PackagePath>imagen_fondo_register2.scale-100.jpg</PackagePath>
-      <Modified>2025-04-05T21:22:53.061</Modified>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\login.scale-100.png">
+      <PackagePath>login.scale-100.png</PackagePath>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ojo.scale-100.png">
       <PackagePath>ojo.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.060</Modified>
+      <Modified>2025-04-06T09:30:18.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\scale.scale-100.png">
+      <PackagePath>scale.scale-100.png</PackagePath>
+      <Modified>2025-04-06T09:30:18.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stopwatch.scale-100.png">
+      <PackagePath>stopwatch.scale-100.png</PackagePath>
+      <Modified>2025-04-06T09:30:18.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timer.scale-100.png">
+      <PackagePath>timer.scale-100.png</PackagePath>
+      <Modified>2025-04-06T09:30:18.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\userplus.scale-100.png">
+      <PackagePath>userplus.scale-100.png</PackagePath>
+      <Modified>2025-04-06T09:30:18.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuario.scale-100.png">
       <PackagePath>usuario.scale-100.png</PackagePath>
-      <Modified>2025-04-05T21:22:53.060</Modified>
+      <Modified>2025-04-06T09:30:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\BodyBalanceNow.deps.json">
       <PackagePath>BodyBalanceNow.deps.json</PackagePath>
-      <Modified>2025-04-05T17:38:43.418</Modified>
+      <Modified>2025-04-06T09:43:35.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -497,6 +517,10 @@
     <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\plainer.maui\1.7.1\lib\net8.0-windows10.0.19041\Plainer.Maui.dll">
       <PackagePath>Plainer.Maui.dll</PackagePath>
       <Modified>2023-11-30T20:43:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\plugin.maui.audio\3.1.1\lib\net8.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+      <Modified>2025-04-04T14:33:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll">
       <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>

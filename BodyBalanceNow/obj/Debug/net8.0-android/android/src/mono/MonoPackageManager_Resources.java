@@ -30,6 +30,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Graphics.dll",
 		"MySql.Data.dll",
 		"Plainer.Maui.dll",
+		"Plugin.Maui.Audio.dll",
 		"System.Configuration.ConfigurationManager.dll",
 		"System.Diagnostics.EventLog.dll",
 		"System.IO.Pipelines.dll",

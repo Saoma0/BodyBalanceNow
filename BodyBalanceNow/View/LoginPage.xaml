@@ -36,7 +36,7 @@
                                    Margin="0,0,10,0"
                                    Grid.Column="0" />
                             <ur:TextField x:Name="entryEmail"
-                                          Title="E-mail"
+                                          Title="E-mail (@tfg.vi)"
                                           AllowClear="True"
                                           AccentColor="#A3CFFA"
                                           BorderColor="#E0E0E0"

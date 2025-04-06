@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             x:Class="BodyBalanceNow.View.CronometroTemporizador"
+             BackgroundColor="#f5f5f5">
+    <ScrollView>
+        <Frame BackgroundColor="#e0e0e0"
+               Padding="25"
+               CornerRadius="25"
+               Margin="30"
+               HasShadow="True"
+               WidthRequest="850"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+
+            <VerticalStackLayout Padding="25" Spacing="20" VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+
+                <!-- Selector de modo -->
+                <Frame BackgroundColor="White"
+                   Padding="15"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   WidthRequest="420"
+                   HorizontalOptions="Center">
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="Selecciona modo"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#333" />
+
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="12">
+                            <Button x:Name="btnModoCrono"
+                                Text="Cronómetro"
+                                Clicked="OnSeleccionarCronometro"
+                                BackgroundColor="#2E86DE"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                CornerRadius="15"
+                                WidthRequest="170" 
+                                StyleClass="ElevatedButton"/>
+
+                            <Button x:Name="btnModoTemp"
+                                Text="Temporizador"
+                                Clicked="OnSeleccionarTemporizador"
+                                BackgroundColor="White"
+                                TextColor="#2E86DE"
+                                BorderColor="#2E86DE"
+                                BorderWidth="2"
+                                FontAttributes="Bold"
+                                CornerRadius="15"
+                                WidthRequest="170"
+                                StyleClass="ElevatedButton"/>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Estado activo -->
+                <HorizontalStackLayout x:Name="estadoBarLayout" Spacing="10" HorizontalOptions="Center" IsVisible="False">
+                    <Frame x:Name="estadoCronometro" Padding="8" BackgroundColor="#2E86DE" CornerRadius="10" HasShadow="True" IsVisible="False">
+                        <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
+                            <Label Text="⏱ Cronómetro activo" TextColor="White" FontSize="13" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                            <Label x:Name="estadoTiempoCrono" Text="00:00:00" TextColor="White" FontSize="14" HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="IrACronometro" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                    <Frame x:Name="estadoTemporizador" Padding="8" BackgroundColor="Orange" CornerRadius="10" HasShadow="True" IsVisible="False">
+                        <VerticalStackLayout Spacing="4" HorizontalOptions="Center">
+                            <Label Text="⏲ Temporizador activo" TextColor="White" FontSize="13" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                            <Label x:Name="estadoTiempoTemp" Text="00:00" TextColor="White" FontSize="14" HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="IrATemporizador" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </HorizontalStackLayout>
+
+                <!-- Contenido funcional en grid -->
+                <Grid ColumnDefinitions="*,200" ColumnSpacing="20" RowSpacing="0" Margin="0">
+                    <!-- Contenido principal -->
+                    <VerticalStackLayout Grid.Column="0" Spacing="0" Margin="0">
+                        <!-- Cronómetro -->
+                        <Frame x:Name="frameCronometro" CornerRadius="25" Padding="25" HasShadow="True" IsVisible="True" HeightRequest="400" BackgroundColor="#E3F2FD">
+                            <VerticalStackLayout Spacing="20">
+                                <HorizontalStackLayout HorizontalOptions="Center" Spacing="8">
+                                    <Image Source="timer.png"
+                                           WidthRequest="25"
+                                           HeightRequest="25"
+                                           VerticalOptions="Center" />
+
+                                    <Label Text="Cronómetro"
+                                           FontSize="26"
+                                           FontAttributes="Bold"
+                                           TextColor="#2E86DE"
+                                           VerticalOptions="Center" />
+                                </HorizontalStackLayout>
+                                <Label x:Name="cronometroLabel" Text="00:00:00" FontSize="42" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#2E86DE" />
+                                <HorizontalStackLayout Spacing="12" HorizontalOptions="Center">
+                                    <Button Text="Iniciar" x:Name="btnStartCrono" Clicked="OnStartCronometro" CornerRadius="20" BackgroundColor="#00C851" TextColor="White" StyleClass="ElevatedButton"/>
+                                    <Button Text="Pausar" x:Name="btnPauseCrono" Clicked="OnPauseCronometro" CornerRadius="20" BackgroundColor="#ffbb33" TextColor="White" StyleClass="ElevatedButton"/>
+                                    <Button Text="Reiniciar" x:Name="btnResetCrono" Clicked="OnResetCronometro" CornerRadius="20" BackgroundColor="#ff4444" TextColor="White" StyleClass="ElevatedButton"/>
+                                </HorizontalStackLayout>
+                                <Button Text="📝 Registrar vuelta" x:Name="btnLapCrono" Clicked="OnRegistrarVueltaCrono" BackgroundColor="#2E86DE" TextColor="White" CornerRadius="20" FontSize="14" HorizontalOptions="Center" StyleClass="ElevatedButton"/>
+                            </VerticalStackLayout>
+                        </Frame>
+
+                        <!-- Temporizador -->
+                        <Frame x:Name="frameTemporizador" CornerRadius="25" BackgroundColor="#FFF3E0" Padding="25" HasShadow="True" IsVisible="True" HeightRequest="400">
+                            <VerticalStackLayout Spacing="20">
+                                <HorizontalStackLayout HorizontalOptions="Center" Spacing="8">
+                                    <Image Source="stopwatch.png"
+                                           WidthRequest="25"
+                                           HeightRequest="25"
+                                           VerticalOptions="Center" />
+
+                                    <Label Text="Temporizador"
+                                           FontSize="26"
+                                           FontAttributes="Bold"
+                                           TextColor="#FF6F00"
+                                           VerticalOptions="Center" />
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Spacing="12" HorizontalOptions="Center">
+                                    <material:TextField x:Name="entryMinutos" Title="Minutos" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center" AccentColor="#A3CFFA"/>
+                                    <material:TextField x:Name="entrySegundos" Title="Segundos" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+                                </HorizontalStackLayout>
+                                <Label x:Name="temporizadorLabel" Text="00:00" FontSize="42" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#ff6f00" />
+                                <HorizontalStackLayout Spacing="12" HorizontalOptions="Center">
+                                    <Button Text="Iniciar" x:Name="btnStartTemp" Clicked="OnStartTemporizador" CornerRadius="20" BackgroundColor="#00C851" TextColor="White" StyleClass="ElevatedButton"/>
+                                    <Button Text="Detener" x:Name="btnStopTemp" Clicked="OnStopTemporizador" CornerRadius="20" BackgroundColor="#ffbb33" TextColor="White" StyleClass="ElevatedButton"/>
+                                    <Button Text="Reiniciar" x:Name="btnResetTemp" Clicked="OnResetTemporizador" CornerRadius="20" BackgroundColor="#ff4444" TextColor="White" StyleClass="ElevatedButton"/>
+                                </HorizontalStackLayout>
+                                <Button Text="📍 Registrar vuelta" x:Name="btnLapTemp" Clicked="OnRegistrarVueltaTemp" BackgroundColor="#ff6f00" TextColor="White" CornerRadius="20" FontSize="14" HorizontalOptions="Center" StyleClass="ElevatedButton"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </VerticalStackLayout>
+
+                    <!-- Vueltas a la derecha -->
+                    <VerticalStackLayout Grid.Column="1" Spacing="10">
+                        <!-- Vueltas del Cronómetro -->
+                        <Frame x:Name="frameVueltasCrono"
+                           BackgroundColor="White"
+                           Padding="10"
+                           CornerRadius="15"
+                           HasShadow="True"
+                           IsVisible="False"
+                           HeightRequest="400">
+                            <VerticalStackLayout>
+                                <Label Text="Vueltas Cronómetro"
+                                   FontSize="16"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center" />
+                                <ScrollView HeightRequest="340">
+                                    <VerticalStackLayout x:Name="vueltasCronoLayout"
+                                     Spacing="6"
+                                     Padding="5" />
+                                </ScrollView>
+                            </VerticalStackLayout>
+                        </Frame>
+
+                        <!-- Vueltas del Temporizador -->
+                        <Frame x:Name="frameVueltasTemp"
+                           BackgroundColor="White"
+                           Padding="10"
+                           CornerRadius="15"
+                           HasShadow="True"
+                           IsVisible="False"
+                           HeightRequest="400">
+                            <VerticalStackLayout>
+                                <Label Text="Vueltas Temporizador"
+                                   FontSize="16"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center" />
+                                <ScrollView HeightRequest="340">
+                                    <VerticalStackLayout x:Name="vueltasTempLayout"
+                                     Spacing="6"
+                                     Padding="5" />
+                                </ScrollView>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </VerticalStackLayout>
+                </Grid>
+            </VerticalStackLayout>
+        </Frame>
+    </ScrollView>
+</ContentPage>

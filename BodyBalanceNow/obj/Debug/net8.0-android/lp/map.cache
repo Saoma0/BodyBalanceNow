@@ -10,6 +10,7 @@ Microsoft.Maui.dll
 Microsoft.Maui.Essentials.dll
 Microsoft.Maui.Graphics.dll
 Plainer.Maui.dll
+Plugin.Maui.Audio.dll
 UraniumUI.dll
 UraniumUI.Material.dll
 Xamarin.Android.Glide.Annotations.dll

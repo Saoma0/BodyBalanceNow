@@ -1,29 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="BodyBalanceNow.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:BodyBalanceNow"
-    xmlns:view="clr-namespace:BodyBalanceNow.View"
-    Shell.FlyoutBehavior="Flyout"
-    Title="BodyBalanceNow">
+    xmlns:views="clr-namespace:BodyBalanceNow.View"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False"
+    Title="BodyBalanceNow"
+    Shell.TabBarBackgroundColor="#3e4a59"
+    Shell.TabBarUnselectedColor="white"
+    Shell.TabBarTitleColor="#81D4FA"
+    Shell.TabBarForegroundColor="#FBC02D">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="main" />
-    <ShellContent
+    <TabBar>
+        <ShellContent
+            Title="Inicio"
+            Icon="house.png"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Calcular IMC"
+            Icon="scale.png"
+            ContentTemplate="{DataTemplate views:CalculadoraIMC}"
+            Route="CalculadoraIMC" />
+
+        <ShellContent
+            Title="Registro de Tiempo"
+            Icon="timer.png"
+            ContentTemplate="{DataTemplate views:CronometroTemporizador}"
+            Route="CronometroTemporizador" />
+
+        <ShellContent
+            Title="Login"
+            Icon="login.png"
+            ContentTemplate="{DataTemplate views:LoginPage}"
+            Route="LoginPage" />
+
+        <ShellContent
+            Title="Registro"
+            Icon="userplus.png"
+            ContentTemplate="{DataTemplate views:RegisterPage}"
+            Route="RegisterPage" />
+        <ShellContent
     Title="Registro"
-    ContentTemplate="{DataTemplate view:RegisterPage}" Route ="registro"
-     />
-    <ShellContent
- Title="Registro"
- ContentTemplate="{DataTemplate view:LoginPage}"
-  />
-    <ShellContent
-Title="Calculadora IMC"
-ContentTemplate="{DataTemplate view:CalculadoraIMC}"
- />
-
-
+    Icon="userplus.png"
+    ContentTemplate="{DataTemplate views:RegisterPage}"
+    Route="RegisterPage" />
+        <ShellContent
+    Title="Registro"
+    Icon="userplus.png"
+    ContentTemplate="{DataTemplate views:RegisterPage}"
+    Route="RegisterPage" />
+    </TabBar>
 </Shell>

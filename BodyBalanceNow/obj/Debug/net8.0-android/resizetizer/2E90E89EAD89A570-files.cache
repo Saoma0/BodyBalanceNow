@@ -1,6 +1,13 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\imagen_fondo_login2.jpg
-obj\Debug\net8.0-android\resizetizer\r\drawable\imagen_fondo_register2.jpg
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\candado.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\email.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\house.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\login.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\ojo.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\scale.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\stopwatch.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\timer.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\userplus.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\usuario.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

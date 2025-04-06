@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="TFGMultiplatform.Views.Components.OptionsPopup"
+               xmlns:ur="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+               Color="Transparent"
+               VerticalOptions="Center"
+               HorizontalOptions="Center">
+
+    <Border BackgroundColor="#FFFFFF"
+            Padding="15"
+            Stroke="#E0E0E0"
+            StrokeThickness="1"
+            StrokeShape="RoundRectangle 10"
+            WidthRequest="220"
+            >
+
+        <VerticalStackLayout Spacing="12">
+            <!-- Título -->
+            <Label Text="Opciones"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   TextColor="#2C3E50"
+                   HorizontalOptions="Start"
+                   Margin="0,0,0,10"/>
+
+            <!-- Opciones -->
+            <Button Text="Eliminar"
+                    TextColor="#E74C3C"
+                    BackgroundColor="Transparent"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    BorderColor="Transparent"
+                    Padding="5,8"
+                    StyleClass="ElevatedButton">
+                <!-- Agregar ícono (opcional, si tienes recursos de imágenes) -->
+                <Button.ImageSource>
+                    <FontImageSource Glyph="&#xE74D;" 
+                                   FontFamily="MaterialIcons"
+                                   Size="20"
+                                   Color="#E74C3C"/>
+                </Button.ImageSource>
+            </Button>
+
+            <Button Text="Modificar"
+                    TextColor="#34495E"
+                    BackgroundColor="Transparent"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    BorderColor="Transparent"
+                    Padding="5,8"
+                    StyleClass="ElevatedButton">
+                <Button.ImageSource>
+                    <FontImageSource Glyph="&#xE3C9;" 
+                                   FontFamily="MaterialIcons"
+                                   Size="20"
+                                   Color="#34495E"/>
+                </Button.ImageSource>
+            </Button>
+
+            <Button Text="Ver Ejercicio"
+                    TextColor="#34495E"
+                    BackgroundColor="Transparent"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    BorderColor="Transparent"
+                    Padding="5,8"
+                    StyleClass="ElevatedButton">
+                <Button.ImageSource>
+                    <FontImageSource Glyph="&#xE8F4;" 
+                                   FontFamily="MaterialIcons"
+                                   Size="20"
+                                   Color="#34495E"/>
+                </Button.ImageSource>
+            </Button>
+
+            <Button Text="Añadir Ejercicio"
+                    TextColor="#34495E"
+                    BackgroundColor="Transparent"
+                    FontSize="14"
+                    HorizontalOptions="Start"
+                    BorderColor="Transparent"
+                    Padding="5,8"
+                    StyleClass="ElevatedButton">
+                <Button.ImageSource>
+                    <FontImageSource Glyph="&#xE145;" 
+                                   FontFamily="MaterialIcons"
+                                   Size="20"
+                                   Color="#34495E"/>
+                </Button.ImageSource>
+            </Button>
+
+            <!-- Separador -->
+            <BoxView StyleClass="Divider"/>
+
+            <!-- Cancelar -->
+            <Button Text="Cancelar"
+                    TextColor="#7F8C8D"
+                    BackgroundColor="Transparent"
+                    FontSize="14"
+                    FontAttributes="Italic"
+                    HorizontalOptions="End"
+                    BorderColor="Transparent"
+                    Padding="5,8"
+                    StyleClass="ElevatedButton"/>
+        </VerticalStackLayout>
+    </Border>
+</toolkit:Popup>

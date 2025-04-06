@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using UraniumUI;
+using CommunityToolkit.Maui;
 namespace BodyBalanceNow
 {
     public static class MauiProgram
@@ -9,6 +10,9 @@ namespace BodyBalanceNow
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseUraniumUI()
+                .UseUraniumUIMaterial()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

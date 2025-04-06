@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ur="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+             x:Class="BodyBalanceNow.View.LoginPage"
+             BackgroundColor="#F5F7FA"
+             Title="LoginPage">
+
+        <Grid VerticalOptions="CenterAndExpand"
+              HorizontalOptions="Center"
+              Padding="30">
+            <Frame BackgroundColor="White"
+                   CornerRadius="25"
+                   HasShadow="True"
+                   Padding="0"
+                   WidthRequest="1050"
+                   HeightRequest="550">
+                <Grid ColumnDefinitions="1.1*, 0.9*">
+                    <VerticalStackLayout Grid.Column="0"
+                                         Padding="60"
+                                         Spacing="25"
+                                         VerticalOptions="Center"
+                                         BackgroundColor="White">
+                        <Label Text="Hola!"
+                               FontSize="34"
+                               FontAttributes="Bold"
+                               TextColor="#2C3E50" />
+
+                        <Grid ColumnDefinitions="Auto,*"
+                              HeightRequest="60"
+                              VerticalOptions="Center">
+                            <Image Source="email.png"
+                                   HeightRequest="30"
+                                   WidthRequest="30"
+                                   VerticalOptions="Center"
+                                   Margin="0,0,10,0"
+                                   Grid.Column="0" />
+                            <ur:TextField x:Name="entryEmail"
+                                          Title="E-mail"
+                                          AllowClear="True"
+                                          AccentColor="#A3CFFA"
+                                          BorderColor="#E0E0E0"
+                                          CornerRadius="12"
+                                          Grid.Column="1" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*,Auto"
+                              HeightRequest="60"
+                              VerticalOptions="Center">
+                            <Image Source="candado.png"
+                                   HeightRequest="30"
+                                   WidthRequest="30"
+                                   VerticalOptions="Center"
+                                   Margin="0,0,10,0"
+                                   Grid.Column="0" />
+                            <ur:TextField x:Name="entryPassword"
+                                          Title="Password"
+                                          IsPassword="True"
+                                          AllowClear="True"
+                                          AccentColor="#A3CFFA"
+                                          BorderColor="#E0E0E0"
+                                          CornerRadius="12"
+                                          Grid.Column="1" />
+                            <ImageButton Source="ojo.png"
+                                         BackgroundColor="Transparent"
+                                         Clicked="OnHiddenPassword"
+                                         HeightRequest="30"
+                                         WidthRequest="30"
+                                         VerticalOptions="Center"
+                                         Grid.Column="2" />
+                        </Grid>
+
+                        <Button Text="Sign In"
+                                Clicked="OnLoginUser"
+                                BackgroundColor="#A3CFFA"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                CornerRadius="28"
+                                HeightRequest="55"
+                                WidthRequest="180"
+                                HorizontalOptions="Center" />
+
+                        <Label Text="No tienes cuenta? Creala aquí"
+                               HorizontalOptions="Center"
+                               FontSize="14"
+                               TextColor="#4A90E2">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnLabelTapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </VerticalStackLayout>
+
+                    <Grid Grid.Column="1">
+                        <Grid.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#A3CFFA" Offset="0.0" />
+                                <GradientStop Color="#6AB4F8" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <VerticalStackLayout Padding="45"
+                                             VerticalOptions="Center"
+                                             HorizontalOptions="Center">
+                            <Label Text="Bienvenido!"
+                                   FontSize="32"
+                                   FontAttributes="Bold"
+                                   TextColor="White"
+                                   HorizontalOptions="Center" />
+                            <Label Text="La disciplina es el puente entre tus metas y tus logros"
+                                   FontSize="17"
+                                   TextColor="White"
+                                   Opacity="0.9"
+                                   HorizontalTextAlignment="Center"
+                                   Margin="0,10,0,0" />
+                        </VerticalStackLayout>
+                    </Grid>
+                </Grid>
+            </Frame>
+        </Grid>
+</ContentPage>

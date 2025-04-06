@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0-android
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -8,8 +12,104 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BodyBalanceNow
-build_property.ProjectDir = C:\Users\gutie\Documents\GitHub\BodyBalanceNow\BodyBalanceNow\
+build_property.ProjectDir = C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/AddNewRoutinePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.AddNewRoutinePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddNewRoutinePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddNewRoutinePage.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/CalculadoraIMC.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CalculadoraIMC.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/Alertas/PopupAlert.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.Alertas.PopupAlert.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\Alertas\PopupAlert.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\Alertas\PopupAlert.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/Alertas/PopupAlertConfirmation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.Alertas.PopupAlertConfirmation.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\Alertas\PopupAlertConfirmation.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\Alertas\PopupAlertConfirmation.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/CustomNavigationBar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.CustomNavigationBar.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\CustomNavigationBar.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\CustomNavigationBar.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/ExerciseListPopUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.ExerciseListPopUp.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\ExerciseListPopUp.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\ExerciseListPopUp.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/NewExerciseForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.NewExerciseForm.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\NewExerciseForm.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\NewExerciseForm.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\NewPage1.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/OptionsPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.OptionsPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Components\OptionsPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Components\OptionsPopup.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml

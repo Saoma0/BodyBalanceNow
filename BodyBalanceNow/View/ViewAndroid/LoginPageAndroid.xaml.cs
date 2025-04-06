@@ -7,12 +7,12 @@ namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class LoginPageAndroid : ContentPage
 {
-    private readonly UsuarioDatabase _userDatabase;
+    private readonly UsuarioDatabaseAndroid _userDatabase;
 
     public LoginPageAndroid()
     {
         InitializeComponent();
-        _userDatabase = new UsuarioDatabase(); // Inicialización del servicio de base de datos
+        _userDatabase = new UsuarioDatabaseAndroid(); // Inicialización del servicio de base de datos
     }
 
     private bool isPasswordVisible = false;

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BodyBalanceNow.View.ViewAndroid.CalculadoraIMCAndroid"
-             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
-             BackgroundColor="#F0F4F8">
+<uranium:UraniumContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+    xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui"
+    x:Class="BodyBalanceNow.View.ViewAndroid.CalculadoraIMCAndroid"
+    BackgroundColor="#F0F4F8">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
@@ -61,6 +63,12 @@
                            TextColor="#E74C3C"
                            IsVisible="False"
                            HorizontalOptions="Center" />
+
+                    <Button Text="📊 Ver Leyenda e Historial"
+                            BackgroundColor="#2E86DE"
+                            TextColor="White"
+                            CornerRadius="15"
+                            Clicked="AbrirBottomSheet" />
                 </VerticalStackLayout>
             </Frame>
 
@@ -92,13 +100,28 @@
                 </VerticalStackLayout>
             </Frame>
 
-            <!-- LEYENDA + HISTORIAL -->
-            <Frame BackgroundColor="White"
-                   Padding="20"
-                   CornerRadius="20"
-                   HasShadow="True">
 
-                <VerticalStackLayout Spacing="15">
+        </VerticalStackLayout>
+    </ScrollView>
+
+    <!-- BOTTOM SHEET -->
+    <uranium:UraniumContentPage.Attachments>
+        <material:BottomSheetView x:Name="imcBottomSheet"
+                                  CloseOnTapOutside="true"
+                                  DisablePageWhenOpened="false"
+                                  >
+
+            <material:BottomSheetView.Header>
+                <Label Text="Leyenda + Historial"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="#2E86DE"
+                       HorizontalOptions="Center"
+                       Padding="10"/>
+            </material:BottomSheetView.Header>
+
+            <ScrollView>
+                <VerticalStackLayout Padding="20" Spacing="15">
                     <Label Text="Clasificación IMC"
                            FontAttributes="Bold"
                            FontSize="24"
@@ -135,7 +158,7 @@
 
                     <BoxView HeightRequest="1" Color="#E0E0E0" Margin="0,15"/>
 
-                    <!-- HISTORIAL -->
+                    <!-- Historial -->
                     <Label x:Name="historialTitleLabel"
                            Text="Historial de IMC"
                            FontSize="18"
@@ -146,7 +169,6 @@
 
                     <CollectionView x:Name="historialIMCCollection"
                                     HeightRequest="150"
-                                    VerticalOptions="FillAndExpand"
                                     ItemsSource="{Binding RegistrosIMC}"
                                     EmptyView="No hay registros de IMC aún.">
                         <CollectionView.ItemTemplate>
@@ -163,8 +185,7 @@
                         </CollectionView.ItemTemplate>
                     </CollectionView>
                 </VerticalStackLayout>
-            </Frame>
-
-        </VerticalStackLayout>
-    </ScrollView>
-</ContentPage>
+            </ScrollView>
+        </material:BottomSheetView>
+    </uranium:UraniumContentPage.Attachments>
+</uranium:UraniumContentPage>

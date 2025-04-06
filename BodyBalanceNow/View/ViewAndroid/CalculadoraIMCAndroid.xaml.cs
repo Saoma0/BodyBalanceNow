@@ -4,18 +4,19 @@ using System.Globalization;
 using BodyBalanceNow.Models;
 using BodyBalanceNow.Services;
 using Microsoft.Maui.Controls;
+using UraniumUI.Pages; // ✅ Necesario para usar UraniumContentPage
 
-namespace BodyBalanceNow.View.ViewAndroid // ← CAMBIADO
+namespace BodyBalanceNow.View.ViewAndroid
 {
-    public partial class CalculadoraIMCAndroid : ContentPage // ← CAMBIADO
+    public partial class CalculadoraIMCAndroid : UraniumContentPage // ✅ CORREGIDO
     {
-        private ExerciseDatabase baseDeDatos = new ExerciseDatabase();
+        private ExerciseDatabaseAndroid baseDeDatos = new();
         private double ultimoIMCCalculado;
         private int idUsuarioActual = Preferences.Get("current_user_id", -1);
         private bool usuarioAutenticado = false;
         public ObservableCollection<ProgresoIMC> RegistrosIMC { get; set; }
 
-        public CalculadoraIMCAndroid() // ← CAMBIADO
+        public CalculadoraIMCAndroid()
         {
             InitializeComponent();
             RegistrosIMC = new ObservableCollection<ProgresoIMC>();
@@ -42,6 +43,36 @@ namespace BodyBalanceNow.View.ViewAndroid // ← CAMBIADO
                 CargarHistorialIMC();
             }
         }
+
+        private async void GuardarIMC(object sender, EventArgs e)
+        {
+            if (idUsuarioActual == -1 || !usuarioAutenticado)
+            {
+                mensajeNoSesion.IsVisible = true;
+                return;
+            }
+
+            var progreso = new ProgresoIMC
+            {
+                FechaRegistro = DateTime.Now,
+                IMC = ultimoIMCCalculado,
+                IdUser = idUsuarioActual
+            };
+
+            try
+            {
+                await baseDeDatos.GuardarProgresoIMC(progreso);
+                await DisplayAlert("Éxito", "Progreso guardado correctamente.", "OK");
+                guardarIMCDB.IsVisible = false;
+                limpiarEntrys();
+                CargarHistorialIMC(); // Recarga el historial después de guardar
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", $"No se pudo guardar el progreso: {ex.Message}", "OK");
+            }
+        }
+
 
         private async void CargarHistorialIMC()
         {
@@ -105,38 +136,10 @@ namespace BodyBalanceNow.View.ViewAndroid // ← CAMBIADO
             }
         }
 
-        private async void GuardarIMC(object sender, EventArgs e)
-        {
-            if (idUsuarioActual == -1 || !usuarioAutenticado)
-            {
-                mensajeNoSesion.IsVisible = true;
-                return;
-            }
 
-            var progreso = new ProgresoIMC
-            {
-                FechaRegistro = DateTime.Now,
-                IMC = ultimoIMCCalculado,
-                IdUser = idUsuarioActual
-            };
 
-            try
-            {
-                await baseDeDatos.GuardarProgresoIMC(progreso);
-                await DisplayAlert("Éxito", "Progreso guardado correctamente.", "OK");
-                guardarIMCDB.IsVisible = false;
-                limpiarEntrys();
-                CargarHistorialIMC();
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Error", $"No se pudo guardar el progreso: {ex.Message}", "OK");
-            }
-        }
-
-        private string ObtenerInterpretacionIMC(double imc)
-        {
-            return imc switch
+        private string ObtenerInterpretacionIMC(double imc) =>
+            imc switch
             {
                 < 18.5 => "Estás en bajo peso.",
                 < 24.9 => "Tu peso es normal.",
@@ -145,11 +148,9 @@ namespace BodyBalanceNow.View.ViewAndroid // ← CAMBIADO
                 < 39.9 => "Obesidad grado II.",
                 _ => "Obesidad grado III (mórbida)."
             };
-        }
 
-        private Color ObtenerColorIMC(double imc)
-        {
-            return imc switch
+        private Color ObtenerColorIMC(double imc) =>
+            imc switch
             {
                 < 18.5 => Colors.Orange,
                 < 24.9 => Colors.Green,
@@ -158,12 +159,16 @@ namespace BodyBalanceNow.View.ViewAndroid // ← CAMBIADO
                 < 39.9 => Colors.IndianRed,
                 _ => Colors.DarkRed
             };
-        }
 
         public void limpiarEntrys()
         {
             alturaEntry.Text = string.Empty;
             pesoEntry.Text = string.Empty;
+        }
+
+        private void AbrirBottomSheet(object sender, EventArgs e)
+        {
+            imcBottomSheet.IsPresented = true;
         }
     }
 }

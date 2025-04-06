@@ -7,13 +7,12 @@ namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class RegisterPageAndroid : ContentPage
 {
-    private readonly UsuarioDatabase _userDatabase;
+    private readonly UsuarioDatabaseAndroid _userDatabase;
 	public RegisterPageAndroid()
 	{
 		InitializeComponent();
-        _userDatabase = new UsuarioDatabase();
+        _userDatabase = new UsuarioDatabaseAndroid();
 	}
-
 
     private async void OnRegisterUser(object sender, EventArgs e)
     {
@@ -49,13 +48,13 @@ public partial class RegisterPageAndroid : ContentPage
         {
             Name = name_user,
             Email = email_user,
-            Password = password_user, 
+            Password = password_user,
 
         };
 
         try
         {
-            _userDatabase.RegistrarUsuario(new_user);
+            _userDatabase.RegistrarUsuarioAndroid(new_user);
             await DisplayAlert("Éxito", "Usuario registrado correctamente", "Cerrar");
             ClearEntrys();
         }
@@ -88,5 +87,6 @@ public partial class RegisterPageAndroid : ContentPage
         return Regex.IsMatch(email, patron);
     }
 
-  
+
+
 }

@@ -24,7 +24,6 @@ namespace BodyBalanceNow.Services
                     {
                         command.Parameters.AddWithValue("@Nombre", usuario.Name);
                         command.Parameters.AddWithValue("@Email", usuario.Email);
-
                         command.Parameters.AddWithValue("@PasswordUser", hashedPassword);
 
 

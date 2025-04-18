@@ -1,0 +1,93 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewWindows.ListaRutinas"
+             Title="Lista de Rutinas"
+            BackgroundColor="#F0F4F8">
+    <Frame BackgroundColor="White"
+                               CornerRadius="25"
+                               Padding="20"
+                               HasShadow="True"
+                               BorderColor="#E0E0E0" Margin="150,100,150,100">
+        <StackLayout Padding="20" Spacing="10">
+            <Grid Padding="10" 
+          ColumnDefinitions="*, 100, 180" 
+          BackgroundColor="#BBDEFB">
+                <Label Text="Nombre" 
+               Grid.Column="0" 
+               FontAttributes="Bold" 
+               FontSize="18"
+               TextColor="#1565C0"
+               HorizontalOptions="Start"
+               VerticalOptions="Center" />
+                <Label Text="Fecha" 
+               Grid.Column="1"  
+               FontAttributes="Bold" 
+               FontSize="18"
+               TextColor="#1565C0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+                <Label Text="Acciones" 
+               Grid.Column="2" 
+               FontAttributes="Bold" 
+               FontSize="18"
+               TextColor="#1565C0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            </Grid>
+            <CollectionView x:Name="listaRutinasUsuario" 
+                    SelectionMode="None"
+                    BackgroundColor="Transparent">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" 
+                      ColumnDefinitions="*, 100, 180" 
+                      Margin="0,5" 
+                      BackgroundColor="#FFFFFF">
+                            <Label Text="{Binding NombreRutina}" 
+                           Grid.Column="0" 
+                           FontSize="16"
+                           TextColor="#424242"
+                           VerticalOptions="Center" />
+                            <Label Text="{Binding FechaCreacion, StringFormat='{}{0:dd/MM/yyyy}'}" 
+                           Grid.Column="1" 
+                           FontSize="16"
+                           TextColor="#424242"
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center" />
+                            <HorizontalStackLayout Grid.Column="2"
+                                           Spacing="15"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center">
+                                <ImageButton Source="papel.png"
+                                     Clicked="OnVerRutinaClicked"
+                                     WidthRequest="45"
+                                     HeightRequest="45"
+                                     
+                                     CornerRadius="10"
+                                     Padding="5"
+                                     ToolTipProperties.Text="Ver ejercicios de la rutina" />
+
+                                <ImageButton Source="botoneditar.png"
+                                     Clicked="OnEditarClicked"
+                                     WidthRequest="45"
+                                     HeightRequest="45"
+                                     
+                                     CornerRadius="10"
+                                     Padding="5"
+                                     ToolTipProperties.Text="Edita la rutina" />
+                                <ImageButton Source="delete.png"
+                                     Clicked="OnEliminarClicked"
+                                     WidthRequest="45"
+                                     HeightRequest="45"
+                                     BackgroundColor="LightGray"
+                                     CornerRadius="10"
+                                     Padding="5"
+                                     ToolTipProperties.Text="Elimina la rutina" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </Frame>
+</ContentPage>

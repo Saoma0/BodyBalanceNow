@@ -6,7 +6,7 @@
              BackgroundColor="#f5f5f5">
 
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
+        <VerticalStackLayout Padding="20" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
 
             <!-- Selector de modo -->
             <Frame BackgroundColor="White"
@@ -88,23 +88,58 @@
                         <Label Text="Cronómetro"
                                FontSize="24"
                                FontAttributes="Bold"
-                               TextColor="#2E86DE" />
+                               TextColor="Black" />
                     </HorizontalStackLayout>
 
                     <Label x:Name="cronometroLabel"
                            Text="00:00:00"
                            FontSize="42"
                            FontAttributes="Bold"
-                           TextColor="#2E86DE"
+                           TextColor="Black"
                            HorizontalOptions="Center" />
 
                     <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                        <Button Text="Iniciar" x:Name="btnStartCrono" Clicked="OnStartCronometro" BackgroundColor="#00C851" TextColor="White" CornerRadius="20" />
-                        <Button Text="Pausar" x:Name="btnPauseCrono" Clicked="OnPauseCronometro" BackgroundColor="#ffbb33" TextColor="White" CornerRadius="20" />
-                        <Button Text="Reiniciar" x:Name="btnResetCrono" Clicked="OnResetCronometro" BackgroundColor="#ff4444" TextColor="White" CornerRadius="20" />
+                        <Button x:Name="btnStartCrono" 
+                                Clicked="OnStartCronometro" 
+                                CornerRadius="35" 
+                                BackgroundColor="White" 
+                                HeightRequest="70" 
+                                WidthRequest="70" 
+                                StyleClass="ElevatedButton">
+                            <Button.ImageSource>
+                                <FileImageSource File="play.png" />
+                                <!-- Asegúrate de tener un icono blanco -->
+                            </Button.ImageSource>
+                        </Button>
+
+                        <Button x:Name="btnPauseCrono" 
+                                Clicked="OnPauseCronometro" 
+                                CornerRadius="35" 
+                                BackgroundColor="white" 
+                                HeightRequest="70" 
+                                WidthRequest="70" 
+                                StyleClass="ElevatedButton">
+                            <Button.ImageSource>
+                                <FileImageSource File="pause.png" />
+                                <!-- Asegúrate de tener un icono blanco -->
+                            </Button.ImageSource>
+                        </Button>
+
+                        <Button x:Name="btnResetCrono" 
+                                Clicked="OnResetCronometro" 
+                                CornerRadius="35" 
+                                BackgroundColor="White" 
+                                HeightRequest="70" 
+                                WidthRequest="70" 
+                                StyleClass="ElevatedButton">
+                            <Button.ImageSource>
+                                <FileImageSource File="reset.png" />
+                                <!-- Asegúrate de tener un icono blanco -->
+                            </Button.ImageSource>
+                        </Button>
                     </HorizontalStackLayout>
 
-                    <Button Text="📝 Registrar vuelta" x:Name="btnLapCrono" Clicked="OnRegistrarVueltaCrono" BackgroundColor="#2E86DE" TextColor="White" CornerRadius="20" FontSize="14" HorizontalOptions="Center" />
+                    <Button Text="📍 Registrar vuelta" x:Name="btnLapCrono" Clicked="OnRegistrarVueltaCrono" BackgroundColor="#2E86DE" TextColor="White" CornerRadius="20" FontSize="14" HorizontalOptions="Center" />
 
                     <!-- Vueltas -->
                     <Frame x:Name="frameVueltasCrono"
@@ -136,25 +171,37 @@
                         <Label Text="Temporizador"
                                FontSize="24"
                                FontAttributes="Bold"
-                               TextColor="#FF6F00" />
+                               TextColor="Black" />
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="12">
-                        <material:TextField x:Name="entryMinutos" Title="Minutos" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center" />
-                        <material:TextField x:Name="entrySegundos" Title="Segundos" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center" />
+                        <material:TextField x:Name="entryMinutos" Title="Minutos" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center" AccentColor="Black" />
+                        <material:TextField x:Name="entrySegundos" Title="Segundos" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center" AccentColor="Black"/>
                     </HorizontalStackLayout>
 
                     <Label x:Name="temporizadorLabel"
                            Text="00:00"
                            FontSize="42"
                            FontAttributes="Bold"
-                           TextColor="#ff6f00"
+                           TextColor="Black"
                            HorizontalOptions="Center" />
 
                     <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                        <Button Text="Iniciar" x:Name="btnStartTemp" Clicked="OnStartTemporizador" BackgroundColor="#00C851" TextColor="White" CornerRadius="20" />
-                        <Button Text="Detener" x:Name="btnStopTemp" Clicked="OnStopTemporizador" BackgroundColor="#ffbb33" TextColor="White" CornerRadius="20" />
-                        <Button Text="Reiniciar" x:Name="btnResetTemp" Clicked="OnResetTemporizador" BackgroundColor="#ff4444" TextColor="White" CornerRadius="20" />
+                        <Button x:Name="btnStartTemp" Clicked="OnStartTemporizador" CornerRadius="35" BackgroundColor="White" HeightRequest="70"  WidthRequest="70"  StyleClass="ElevatedButton">
+                            <Button.ImageSource>
+                                <FileImageSource File="play.png" />
+                            </Button.ImageSource>
+                        </Button>
+                        <Button x:Name="btnStopTemp" Clicked="OnStopTemporizador"  CornerRadius="35" BackgroundColor="white"  HeightRequest="70"  WidthRequest="70" StyleClass="ElevatedButton">
+                            <Button.ImageSource>
+                                <FileImageSource File="pause.png" />
+                            </Button.ImageSource>
+                        </Button>
+                        <Button x:Name="btnResetTemp" Clicked="OnResetTemporizador" CornerRadius="35" BackgroundColor="White"  HeightRequest="70"  WidthRequest="70"  StyleClass="ElevatedButton">
+                            <Button.ImageSource>
+                                <FileImageSource File="reset.png" />
+                            </Button.ImageSource>
+                        </Button>
                     </HorizontalStackLayout>
 
                     <Button Text="📍 Registrar vuelta" x:Name="btnLapTemp" Clicked="OnRegistrarVueltaTemp" BackgroundColor="#ff6f00" TextColor="White" CornerRadius="20" FontSize="14" HorizontalOptions="Center" />

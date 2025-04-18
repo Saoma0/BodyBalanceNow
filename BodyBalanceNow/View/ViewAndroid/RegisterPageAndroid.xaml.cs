@@ -57,6 +57,9 @@ public partial class RegisterPageAndroid : ContentPage
             _userDatabase.RegistrarUsuarioAndroid(new_user);
             await DisplayAlert("Éxito", "Usuario registrado correctamente", "Cerrar");
             ClearEntrys();
+
+            // Navegar a la página de inicio de sesión
+            await Shell.Current.GoToAsync("//MainPage");
         }
         catch (Exception ex)
         {

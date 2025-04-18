@@ -20,10 +20,10 @@
             Route="MainPage" />
 
         <ShellContent
-            Title="IMC"
+            Title="Peso"
             Icon="scale.png"
-            x:Name="IMCTab"
-            Route="CalculadoraIMC" />
+            x:Name="PesoTab"
+            Route="RegistroPesoWindows" />
 
         <ShellContent
             Title="Tiempo"
@@ -32,15 +32,15 @@
             Route="CronometroTemporizador" />
 
         <ShellContent
-            x:Name="LoginTab"
-            Title="Login"
-            Icon="login.png"
-            Route="LoginPage" />
-
+            Title="Salud"
+            Icon="heart.png"
+            x:Name="SaludTab"
+            Route="BoxSalud" />
         <ShellContent
-            Title="Registro"
-            Icon="userplus.png"
-            x:Name="RegistroTab"
-            Route="RegisterPage" />
+            Title="Entrenamiento"
+            Icon="heart.png"
+            x:Name="EntrenamientoTab"
+            Route="BoxEntrenamiento" />
+
     </TabBar>
 </Shell>

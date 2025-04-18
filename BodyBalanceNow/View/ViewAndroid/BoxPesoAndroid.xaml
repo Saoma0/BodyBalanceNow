@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewAndroid.BoxPesoAndroid"
+             BackgroundColor="#F0F4F8"
+             Title="BoxSalud">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20,30,20,20"
+                                 Spacing="30"
+                                 HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="CenterAndExpand">
+
+            <!-- AGUA -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Frame CornerRadius="15"
+                       BackgroundColor="#FFFFFF"
+                       BorderColor="#E8ECEF"
+                       HasShadow="True"
+                       Padding="0"
+                       WidthRequest="300"
+                       HeightRequest="80"
+                       Margin="0,10,0,0">
+                    <Grid Padding="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="scale.png"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               VerticalOptions="Center"
+                               Grid.Column="0"
+                               Margin="10,0,0,0" />
+
+                        <Label Text="Calcular IMC"
+                               Grid.Column="1"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="#2D3748"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="IrARegistroIMCAndroid_Clicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Label Text="El Índice de Masa Corporal (IMC) es una medida que relaciona el peso y la altura de una persona para estimar si su peso es saludable."
+                       FontSize="14"
+                       TextColor="#718096"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap"
+                       Margin="0,5,0,0" />
+            </VerticalStackLayout>
+
+            <!-- SUEÑO -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Frame CornerRadius="15"
+                       BackgroundColor="#FFFFFF"
+                       BorderColor="#E8ECEF"
+                       HasShadow="True"
+                       Padding="0"
+                       WidthRequest="300"
+                       HeightRequest="80"
+                       Margin="0,10,0,0">
+                    <Grid Padding="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="peso.png"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               VerticalOptions="Center"
+                               Grid.Column="0"
+                               Margin="10,0,0,0" />
+
+                        <Label Text="Registro de Peso"
+                               Grid.Column="1"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="#2D3748"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="IrARegistroPesoAndroid_Clicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Label Text="Tu peso no define quién eres, pero entenderlo te ayuda a cuidarte mejor."
+                       FontSize="14"
+                       TextColor="#718096"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap"
+                       Margin="0,5,0,0" />
+            </VerticalStackLayout>
+
+          
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

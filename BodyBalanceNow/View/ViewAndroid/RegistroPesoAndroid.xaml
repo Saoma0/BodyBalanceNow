@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uranium:UraniumContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+    xmlns:uranium="http://schemas.enisn-projects.io/dotnet/maui/uraniumui"
+    xmlns:System="clr-namespace:System;assembly=mscorlib"
+    x:Class="BodyBalanceNow.View.ViewAndroid.RegistroPesoAndroid">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center">
+
+            <Label x:Name="mensajeNoSesion"
+                   IsVisible="False"
+                   Text="Inicia sesión para registrar tu peso."
+                   TextColor="#E74C3C"
+                   FontSize="14"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold" />
+
+            <Frame BackgroundColor="White"
+                   CornerRadius="25"
+                   Padding="20"
+                   HasShadow="True"
+                   BorderColor="#E0E0E0">
+                <VerticalStackLayout Spacing="15">
+
+                    <material:TextField x:Name="PesoEntry"
+                                        Title="Peso en kg"
+                                        Keyboard="Numeric"
+                                        BackgroundColor="#F9FAFB" />
+
+                    <DatePicker x:Name="FechaPicker"
+                                Format="dd/MM/yyyy"
+                                Date="{x:Static System:DateTime.Today}"
+                                MaximumDate="{x:Static System:DateTime.Today}"
+                                TextColor="#2C3E50"
+                                FontSize="14"
+                                WidthRequest="200" />
+
+                    <Button Text="Guardar peso"
+                            BackgroundColor="#34C759"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="15"
+                            Clicked="OnGuardarClicked"
+                            WidthRequest="240" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- GRÁFICO -->
+            <Frame CornerRadius="20"
+                   Padding="10"
+                   BackgroundColor="White"
+                   HasShadow="True"
+                   BorderColor="#E0E0E0"
+                   WidthRequest="300"
+                   HeightRequest="250"
+                   Margin="0,10,0,0">
+                <HorizontalStackLayout Spacing="10">
+
+                    <VerticalStackLayout WidthRequest="60"
+                                         VerticalOptions="Center"
+                                         Spacing="20">
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Green" />
+                            <Label Text="Alto" FontSize="12" TextColor="#2C3E50" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="#FFB300" />
+                            <Label Text="Medio" FontSize="12" TextColor="#2C3E50" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Red" />
+                            <Label Text="Bajo" FontSize="12" TextColor="#2C3E50" />
+                        </StackLayout>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="10">
+                        <Label Text="Gráfico semanal"
+                               FontSize="16"
+                               FontAttributes="Bold"
+                               TextColor="#2C3E50"
+                               HorizontalTextAlignment="Center" />
+                        <Grid x:Name="GraficoPesoSemanal"
+                              ColumnSpacing="5"
+                              VerticalOptions="End"
+                              HorizontalOptions="Center"
+                              HeightRequest="160" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+    <!-- BottomSheet: HISTORIAL -->
+    <uranium:UraniumContentPage.Attachments>
+        <material:BottomSheetView x:Name="historialBottomSheet"
+                                  CloseOnTapOutside="true"
+                                  DisablePageWhenOpened="false">
+            <material:BottomSheetView.Header>
+                <Label Text="Historial de Peso"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="#2E86DE"
+                       HorizontalOptions="Center"
+                       Padding="10" />
+            </material:BottomSheetView.Header>
+
+            <ScrollView>
+                <VerticalStackLayout Padding="20" Spacing="15">
+                    <CollectionView x:Name="historialPesoCollection"
+                        EmptyView="Aún no hay registros.">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="10"
+                           CornerRadius="16"
+                           BackgroundColor="White"
+                           BorderColor="#E0E0E0"
+                           HasShadow="True"
+                           Margin="0,4,0,4">
+                                    <Grid ColumnDefinitions="*,Auto">
+
+                                        <!-- Información del peso -->
+                                        <VerticalStackLayout Spacing="2" Grid.Column="0">
+                                            <Label Text="{Binding Fecha, StringFormat='Fecha: {0:dd/MM/yyyy}'}"
+                                       TextColor="#2C3E50"
+                                       FontSize="14"
+                                       FontAttributes="Bold" />
+                                            <Label Text="{Binding Peso, StringFormat='Peso: {0} kg'}"
+                                       TextColor="#007AFF"
+                                       FontSize="13" />
+                                        </VerticalStackLayout>
+
+                                        <!-- Botón eliminar -->
+                                        <ImageButton Source="delete.png"
+                                         Grid.Column="1"
+                                         BackgroundColor="Transparent"
+                                         HeightRequest="18"
+                                         WidthRequest="18"
+                                         Padding="0"
+                                         CommandParameter="{Binding}"
+                                         Clicked="EliminarRegistroPeso_Clicked" />
+                                    </Grid>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </ScrollView>
+        </material:BottomSheetView>
+    </uranium:UraniumContentPage.Attachments>
+</uranium:UraniumContentPage>

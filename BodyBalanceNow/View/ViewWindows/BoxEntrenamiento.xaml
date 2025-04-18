@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewWindows.BoxEntrenamiento"
+             BackgroundColor="#F0F4F8">
+
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="30" Padding="20">
+
+        <!-- Botón Crear Nueva Rutina -->
+        <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
+            <Frame BackgroundColor="#E3EAF2"
+                   Padding="10,8"
+                   CornerRadius="12"
+                   HasShadow="False"
+                   WidthRequest="160"
+                   VerticalOptions="Center">
+                <Label Text="Crea una nueva rutina para mejorar tu entrenamiento físico."
+                       FontSize="13"
+                       TextColor="#34495E"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <Grid WidthRequest="420" HeightRequest="80">
+                <Image Source="rutina_crear.png"
+                       WidthRequest="48"
+                       HeightRequest="48"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       Margin="0,0,0,0"/>
+                <Button Text="Crear Nueva Rutina"
+                        StyleClass="ElevatedButton"
+                        FontSize="24"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="16"
+                        HeightRequest="70"
+                        WidthRequest="360"
+                        Margin="60,0,0,0"
+                        Clicked="IrACrearNuevaRutina_Clicked" />
+            </Grid>
+        </HorizontalStackLayout>
+
+
+        <!-- Botón Ver Rutinas Existentes -->
+        <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
+            <Frame BackgroundColor="#E3EAF2"
+                   Padding="10,8"
+                   CornerRadius="12"
+                   HasShadow="False"
+                   WidthRequest="160"
+                   VerticalOptions="Center">
+                <Label Text="Consulta y sigue las rutinas que ya tienes registradas."
+                       FontSize="13"
+                       TextColor="#34495E"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <Grid WidthRequest="420" HeightRequest="80">
+                <Image Source="rutina_ver.png"
+                       WidthRequest="48"
+                       HeightRequest="48"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       Margin="0,0,0,0"/>
+                <Button Text="Ver Rutinas Existentes"
+                        StyleClass="ElevatedButton"
+                        FontSize="24"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="16"
+                        HeightRequest="70"
+                        WidthRequest="360"
+                        Margin="60,0,0,0"
+                        Clicked="IrAVerRutinasExistentes_Clicked" />
+            </Grid>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

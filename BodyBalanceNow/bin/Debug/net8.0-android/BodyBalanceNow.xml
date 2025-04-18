@@ -4,6 +4,16 @@
         <name>BodyBalanceNow</name>
     </assembly>
     <members>
+        <member name="T:BodyBalanceNow.View.ViewAndroid.ListaEjerciciosPopUpAndroid">
+            Se cambian los enlaces a enlaces embebidos para que solo cargue el video directo, no la página de YouTube
+            
+            Se utilizan los hilos para evitar los errores de la UI, forzando que se ejecute de forma correcta
+        </member>
+        <member name="T:BodyBalanceNow.View.ViewWindows.ListaEjerciciosPopUp">
+            Se cambian los enlaces a enlaces embebidos para que solo cargue el video directo, no la página de YouTube
+            
+            Se utilizan los hilos para evitar los errores de la UI, forzando que se ejecute de forma correcta
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color

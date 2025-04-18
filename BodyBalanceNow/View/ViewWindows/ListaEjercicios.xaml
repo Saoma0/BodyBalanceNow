@@ -1,0 +1,112 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewWindows.ListaEjercicios"
+             Title="Lista de Ejercicios"
+             BackgroundColor="#F0F4F8">
+    <Frame BackgroundColor="White"
+           CornerRadius="25"
+           Padding="20"
+           HasShadow="True"
+           BorderColor="#E0E0E0" Margin="150,100,150,100">
+        <StackLayout Padding="10" Spacing="10">
+
+            <Grid Padding="10"
+                  ColumnDefinitions="*, 100, 130, 170"
+                  BackgroundColor="#BBDEFB">
+                <Label Text="Ejercicio" 
+                       Grid.Column="0" 
+                       FontAttributes="Bold" 
+                       FontSize="18"
+                       TextColor="#1565C0"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+                <Label Text="Nivel" 
+                       Grid.Column="1"  
+                       FontAttributes="Bold" 
+                       FontSize="18"
+                       TextColor="#1565C0"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+                <Label Text="Músculo" 
+                       Grid.Column="2"  
+                       FontAttributes="Bold" 
+                       FontSize="18"
+                       TextColor="#1565C0"
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" />
+                <Label Text="Acciones" 
+                       Grid.Column="3" 
+                       FontAttributes="Bold" 
+                       FontSize="18"
+                       TextColor="#1565C0"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Grid>
+
+            <CollectionView x:Name="listaEjerciciosRutina" 
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" 
+                              ColumnDefinitions="*, 100, 130, 170" 
+                              Margin="0" 
+                              BackgroundColor="#FFFFFF">
+                            <Label Text="{Binding NombreEjercicio}" 
+                                   Grid.Column="0" 
+                                   FontSize="16"
+                                   TextColor="#424242"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center" />
+                            <Label Text="{Binding Dificultad}" 
+                                   Grid.Column="1" 
+                                   FontSize="16"
+                                   TextColor="#424242"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+                            <Label Text="{Binding GrupoMuscular}" 
+                                   Grid.Column="2" 
+                                   FontSize="16"
+                                   TextColor="#424242"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+
+                            <HorizontalStackLayout Grid.Column="3"
+                                                   Spacing="8"
+                                                   HorizontalOptions="Center"
+                                                   VerticalOptions="Center">
+                                <ImageButton Source="papel"
+                                             WidthRequest="25"
+                                             HeightRequest="25"
+                                             BackgroundColor="Orange"
+                                             CornerRadius="8"
+                                             Padding="5"
+                                             ToolTipProperties.Text="Ver detalles"
+                                             Clicked="OnVerEjercicioClicked" />
+
+                                <ImageButton Source="tachodereciclaje"
+                                             WidthRequest="25"
+                                             HeightRequest="25"
+                                             BackgroundColor="#EF5350"
+                                             CornerRadius="8"
+                                             Padding="5"
+                                             ToolTipProperties.Text="Eliminar"
+                                             Clicked="OnEliminarEjercicioClicked" />
+
+                                <ImageButton Source="editar"
+                                             WidthRequest="25"
+                                             HeightRequest="25"
+                                             BackgroundColor="#4CAF50"
+                                             CornerRadius="8"
+                                             Padding="5"
+                                             ToolTipProperties.Text="Ver detalles ejercicio"
+                                             Clicked="OnMasInformacionClicked" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </Frame>
+</ContentPage>

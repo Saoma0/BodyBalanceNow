@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="BodyBalanceNow.View.ViewAndroid.ListaSeriesPopUpAndroid"
+               CanBeDismissedByTappingOutsideOfPopup="False"
+               Color="#000000AA">
+
+    <Frame Padding="30"
+           BackgroundColor="White"
+           CornerRadius="20"
+           WidthRequest="700"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"
+           HasShadow="True"
+           BorderColor="#E2E8F0">
+        <VerticalStackLayout Spacing="25">
+            <Grid RowSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Ejercicio:" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" TextColor="#2D3748"/>
+                <Label x:Name="NombreEjercicioLabel" Grid.Row="0" Grid.Column="1" TextColor="#4A5568"/>
+
+                <Label Text="Rutina:" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" TextColor="#2D3748"/>
+                <Label x:Name="NombreRutinaLabel" Grid.Row="1" Grid.Column="1" TextColor="#4A5568"/>
+
+                <Label Text="Grupo Muscular:" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" TextColor="#2D3748"/>
+                <Label x:Name="GrupoMuscularLabel" Grid.Row="3" Grid.Column="1" TextColor="#4A5568"/>
+            </Grid>
+
+            <Frame BackgroundColor="#EDF2F7" Padding="10" CornerRadius="10" HasShadow="False">
+                <Grid ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Serie" Grid.Column="0" HorizontalOptions="Center" FontAttributes="Bold" TextColor="#2B6CB0"/>
+                    <Label Text="Repeticiones" Grid.Column="1" HorizontalOptions="Center" FontAttributes="Bold" TextColor="#2B6CB0"/>
+                    <Label Text="Peso" Grid.Column="2" HorizontalOptions="Center" FontAttributes="Bold" TextColor="#2B6CB0"/>
+                </Grid>
+            </Frame>
+
+            <Frame BackgroundColor="#F7FAFC" CornerRadius="10" HasShadow="False" Padding="10">
+                <CollectionView x:Name="ListaSeries"
+                                HeightRequest="250"
+                                SelectionMode="None">
+                    <CollectionView.Header>
+                        <VerticalStackLayout>
+
+
+                            <Frame x:Name="FormularioSeries"
+                                   IsVisible="False"
+                                   BackgroundColor="#FFFFFF"
+                                   BorderColor="#CBD5E0"
+                                   Padding="15"
+                                   HasShadow="True"
+                                   CornerRadius="10"
+                                   Margin="0,0,0,10">
+                                <Grid ColumnSpacing="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <ImageButton Source="anadir.png"
+                                                 Grid.Column="0"
+                                                 WidthRequest="40"
+                                                 HeightRequest="40"
+                                                 BackgroundColor="Transparent"
+                                                 Clicked="OnSaveNewSeries"
+                                                 HorizontalOptions="Center"
+                                                 VerticalOptions="Center"/>
+
+                                    <Frame Grid.Column="1" Padding="5" CornerRadius="8" BackgroundColor="#EDF2F7" HasShadow="False">
+                                        <Entry x:Name="SerieEntry"
+                                               Placeholder="Serie"
+                                               Keyboard="Numeric"
+                                               BackgroundColor="Transparent"/>          
+                                    </Frame>
+                                    <Frame Grid.Column="2" Padding="5" CornerRadius="8" BackgroundColor="#EDF2F7" HasShadow="False">
+                                        <Entry x:Name="RepeticionesEntry"
+                                               Placeholder="Repeticiones"
+                                               Keyboard="Numeric"
+                                               BackgroundColor="Transparent"/>
+                                    </Frame>
+
+                                    <Frame Grid.Column="3" Padding="5" CornerRadius="8" BackgroundColor="#EDF2F7" HasShadow="False">
+                                        <Entry x:Name="PesoEntry"
+                                               Placeholder="Peso"
+                                               Keyboard="Numeric"
+                                               BackgroundColor="Transparent"/>
+                                    </Frame>
+
+                                </Grid>
+                            </Frame>
+
+                            <Button Text="Nueva Serie"
+                                    BackgroundColor="#3182CE"
+                                    TextColor="White"
+                                    CornerRadius="20"
+                                    FontSize="14"
+                                    Padding="10,5"
+                                    HeightRequest="40"
+                                    WidthRequest="150"
+                                    HorizontalOptions="Center"
+                                    Clicked="OnShowNewSeriesForm"/>
+                        </VerticalStackLayout>
+                    </CollectionView.Header>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding NumeroSerie}" Grid.Column="0" HorizontalOptions="Center" TextColor="#2D3748"/>
+                                <Label Text="{Binding RepeticionesRealizadas}" Grid.Column="1" HorizontalOptions="Center" TextColor="#2D3748"/>
+                                <Label Text="{Binding PesoRealizado}" Grid.Column="2" HorizontalOptions="Center" TextColor="#2D3748"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Frame>
+
+            <Button Text="Cerrar"
+                    BackgroundColor="#E53E3E"
+                    TextColor="White"
+                    CornerRadius="20"
+                    FontSize="14"
+                    Padding="10,5"
+                    HeightRequest="40"
+                    WidthRequest="150"
+                    HorizontalOptions="Center"
+                    Clicked="OnCloseWindow"/>
+        </VerticalStackLayout>
+    </Frame>
+</toolkit:Popup>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewWindows.BoxPeso"
+             BackgroundColor="#F0F4F8">
+
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="30" Padding="20">
+
+        <!-- Botón Agua -->
+        <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
+            <Frame BackgroundColor="#E3EAF2"
+                   Padding="10,8"
+                   CornerRadius="12"
+                   HasShadow="False"
+                   WidthRequest="160"
+                   VerticalOptions="Center">
+                <Label Text="El Índice de Masa Corporal (IMC) es una medida que relaciona el peso y la altura de una persona para estimar si su peso es saludable."
+                       FontSize="13"
+                       TextColor="#34495E"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <Grid WidthRequest="420" HeightRequest="80">
+                <Image Source="scale.png"
+               WidthRequest="48"
+               HeightRequest="48"
+               VerticalOptions="Center"
+               HorizontalOptions="Start"
+               Margin="0,0,0,0"/>
+                <Button Text="Calcular IMC"
+                StyleClass="ElevatedButton"
+                FontSize="24"
+                BackgroundColor="Black"
+                TextColor="White"
+                FontAttributes="Bold"
+                CornerRadius="16"
+                HeightRequest="70"
+                WidthRequest="360"
+                Margin="60,0,0,0"
+                Clicked="IrARegistroIMC_Clicked" />
+            </Grid>
+        </HorizontalStackLayout>
+
+
+        <!-- Botón Sueño -->
+        <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
+            <Frame BackgroundColor="#E3EAF2"
+                   Padding="10,8"
+                   CornerRadius="12"
+                   HasShadow="False"
+                   WidthRequest="160"
+                   VerticalOptions="Center">
+                <Label Text="Tu peso no define quién eres, pero entenderlo te ayuda a cuidarte mejor."
+                       FontSize="13"
+                       TextColor="#34495E"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <Grid WidthRequest="420" HeightRequest="80">
+                <Image Source="peso.png"
+                       WidthRequest="48"
+                       HeightRequest="48"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       Margin="0,0,0,0"/>
+                <Button Text="Registro de Peso"
+                        StyleClass="ElevatedButton"
+                        FontSize="24"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="16"
+                        HeightRequest="70"
+                        WidthRequest="360"
+                        Margin="60,0,0,0"
+                        Clicked="IrARegistroPeso_Clicked" />
+            </Grid>
+        </HorizontalStackLayout>
+
+       
+
+    </VerticalStackLayout>
+</ContentPage>

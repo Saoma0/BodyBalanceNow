@@ -10,19 +10,25 @@ public partial class AppShell : Shell
     public AppShell()
     {
         InitializeComponent();
+
 #if ANDROID
         InicioTab.ContentTemplate = new DataTemplate(typeof(MainPageAndroid));
-        IMCTab.ContentTemplate = new DataTemplate(typeof(CalculadoraIMCAndroid));
+        PesoTab.ContentTemplate = new DataTemplate(typeof(BoxPesoAndroid));
         TiempoTab.ContentTemplate = new DataTemplate(typeof(TiempoAndroid));
-        LoginTab.ContentTemplate = new DataTemplate(typeof(LoginPageAndroid));
-        RegistroTab.ContentTemplate = new DataTemplate(typeof(RegisterPageAndroid));
+        SaludTab.ContentTemplate = new DataTemplate(typeof(BoxSaludAndroid));
+        EntrenamientoTab.ContentTemplate = new DataTemplate(typeof(BoxEntrenamientoAndroid));
+
+        Routing.RegisterRoute("RegisterPage", typeof(RegisterPageAndroid));
 #elif WINDOWS
         InicioTab.ContentTemplate = new DataTemplate(typeof(MainPageWindows));
-        IMCTab.ContentTemplate = new DataTemplate(typeof(CalculadoraIMC));
+        PesoTab.ContentTemplate = new DataTemplate(typeof(BoxPeso));
         TiempoTab.ContentTemplate = new DataTemplate(typeof(CronometroTemporizador));
-        LoginTab.ContentTemplate = new DataTemplate(typeof(LoginPage));
-        RegistroTab.ContentTemplate = new DataTemplate(typeof(RegisterPage));
-        
+        SaludTab.ContentTemplate = new DataTemplate(typeof(BoxSalud));
+        EntrenamientoTab.ContentTemplate = new DataTemplate(typeof(BoxEntrenamiento));
+
+
+        Routing.RegisterRoute("RegisterPage", typeof(RegisterPage)); 
+
 #else
 
 #endif

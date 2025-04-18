@@ -166,9 +166,5 @@ namespace BodyBalanceNow.View.ViewAndroid
             pesoEntry.Text = string.Empty;
         }
 
-        private void AbrirBottomSheet(object sender, EventArgs e)
-        {
-            imcBottomSheet.IsPresented = true;
-        }
     }
 }

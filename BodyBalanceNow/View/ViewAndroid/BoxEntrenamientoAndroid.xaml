@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BodyBalanceNow.View.ViewAndroid.BoxEntrenamientoAndroid"
+             BackgroundColor="#F0F4F8"
+             Title="BoxEntrenamiento">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20,30,20,20"
+                             Spacing="30"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="CenterAndExpand">
+
+            <!-- CREAR RUTINA -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Frame CornerRadius="15"
+                       BackgroundColor="#FFFFFF"
+                       BorderColor="#E8ECEF"
+                       HasShadow="True"
+                       Padding="0"
+                       WidthRequest="300"
+                       HeightRequest="80"
+                       Margin="0,10,0,0">
+                    <Grid Padding="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="rutina_crear.png"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               VerticalOptions="Center"
+                               Grid.Column="0"
+                               Margin="10,0,0,0" />
+
+                        <Label Text="Crear Nueva Rutina"
+                               Grid.Column="1"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="#2D3748"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="IrACrearNuevaRutina_Clicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Label Text="Crea una nueva rutina para mejorar tu entrenamiento físico."
+                       FontSize="14"
+                       TextColor="#718096"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap"
+                       Margin="0,5,0,0" />
+            </VerticalStackLayout>
+
+            <!-- VER RUTINAS -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Frame CornerRadius="15"
+                       BackgroundColor="#FFFFFF"
+                       BorderColor="#E8ECEF"
+                       HasShadow="True"
+                       Padding="0"
+                       WidthRequest="300"
+                       HeightRequest="80"
+                       Margin="0,10,0,0">
+                    <Grid Padding="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="rutina_ver.png"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               VerticalOptions="Center"
+                               Grid.Column="0"
+                               Margin="10,0,0,0" />
+
+                        <Label Text="Ver Rutinas Existentes"
+                               Grid.Column="1"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="#2D3748"
+                               VerticalOptions="Center"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="IrAVerRutinasExistentes_Clicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <Label Text="Consulta y sigue las rutinas que ya tienes registradas."
+                       FontSize="14"
+                       TextColor="#718096"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap"
+                       Margin="0,5,0,0" />
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

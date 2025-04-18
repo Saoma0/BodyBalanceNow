@@ -205,6 +205,9 @@
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\candado.scale-100.png">
       <PackagePath>candado.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-100.png">
+      <PackagePath>delete.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -220,8 +223,14 @@
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\drop.scale-100.png">
+      <PackagePath>drop.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
       <PackagePath>email.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart.scale-100.png">
+      <PackagePath>heart.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\house.scale-100.png">
       <PackagePath>house.scale-100.png</PackagePath>
@@ -232,11 +241,29 @@
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ojo.scale-100.png">
       <PackagePath>ojo.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pause.scale-100.png">
+      <PackagePath>pause.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\peso.scale-100.png">
+      <PackagePath>peso.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\play.scale-100.png">
+      <PackagePath>play.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\reset.scale-100.png">
+      <PackagePath>reset.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\scale.scale-100.png">
       <PackagePath>scale.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sleep.scale-100.png">
+      <PackagePath>sleep.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stopwatch.scale-100.png">
       <PackagePath>stopwatch.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stress.scale-100.png">
+      <PackagePath>stress.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\timer.scale-100.png">
       <PackagePath>timer.scale-100.png</PackagePath>

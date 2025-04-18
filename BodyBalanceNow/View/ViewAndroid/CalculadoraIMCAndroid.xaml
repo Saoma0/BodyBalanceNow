@@ -8,7 +8,7 @@
     BackgroundColor="#F0F4F8">
 
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
+        <VerticalStackLayout Padding="20" Spacing="20"  VerticalOptions="Center">
 
             <!-- FORMULARIO -->
             <Frame BackgroundColor="White"
@@ -63,12 +63,6 @@
                            TextColor="#E74C3C"
                            IsVisible="False"
                            HorizontalOptions="Center" />
-
-                    <Button Text="📊 Ver Leyenda e Historial"
-                            BackgroundColor="#2E86DE"
-                            TextColor="White"
-                            CornerRadius="15"
-                            Clicked="AbrirBottomSheet" />
                 </VerticalStackLayout>
             </Frame>
 

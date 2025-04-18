@@ -6,7 +6,7 @@ namespace BodyBalanceNow.Services
     public  class UsuarioDatabaseAndroid
     {
 
-         private string connectionString = "Server=10.0.2.2;Database=tfgdatabase;User Id = root; Password=S@6493483!!!!;";
+         private string connectionString = "Server=10.0.2.2;Database=tfgdatabase;User Id = root; Password=S@6493483!!!!";
         public void RegistrarUsuarioAndroid(Usuario usuario)
         {
             try
@@ -106,6 +106,19 @@ namespace BodyBalanceNow.Services
                 Console.WriteLine($"Error al verificar el usuario: {ex.Message}");
                 return false; // Devuelve false en caso de error.
             }
+        }
+
+        // Método para obtener todos los usuarios
+        public async Task EliminarUsuarioPorId(int userId)
+        {
+            using var connection = new MySqlConnection(connectionString);
+            await connection.OpenAsync();
+
+            var query = "DELETE FROM Usuarios WHERE ID = @Id";
+            using var command = new MySqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Id", userId);
+
+            await command.ExecuteNonQueryAsync();
         }
     }
 }

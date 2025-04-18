@@ -76,18 +76,27 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="View\ViewAndroid\LoginPageAndroid.xaml.cs">
-	    <DependentUpon>LoginPageAndroid.xaml</DependentUpon>
+	  <Compile Update="View\ViewAndroid\BoxEntrenamientoAndroid.xaml.cs">
+	    <DependentUpon>BoxEntrenamientoAndroid.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="View\ViewAndroid\RegisterPageAndroid.xaml.cs">
-	    <DependentUpon>RegisterPageAndroid.xaml</DependentUpon>
+	  <Compile Update="View\ViewAndroid\ListaEjerciciosAndroid.xaml.cs">
+	    <DependentUpon>ListaEjerciciosAndroid.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\ViewAndroid\ListaEjerciciosPopUpAndroid.xaml.cs">
+	    <DependentUpon>ListaEjerciciosPopUpAndroid.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\ViewAndroid\ListaRutinasAndroid.xaml.cs">
+	    <DependentUpon>ListaRutinasAndroid.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\ViewAndroid\ListaSeriesPopUpAndroid.xaml.cs">
+	    <DependentUpon>ListaSeriesPopUpAndroid.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\ViewAndroid\NuevaRutinaAndroid.xaml.cs">
+	    <DependentUpon>NuevaRutinaAndroid.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="View\AddNewRoutinePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="View\Components\Alertas\PopupAlert.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -109,34 +118,100 @@
 	  <MauiXaml Update="View\Components\OptionsPopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\ViewAndroid\LoginPageAndroid.xaml">
+	  <MauiXaml Update="View\ViewAndroid\BoxEntrenamientoAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\ViewAndroid\RegisterPageAndroid.xaml">
+	  <MauiXaml Update="View\ViewAndroid\BoxPesoAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\ViewWindows\LoginPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\ViewWindows\RegisterPage.xaml">
+	  <MauiXaml Update="View\ViewAndroid\BoxSaludAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ViewAndroid\CalculadoraIMCAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\ListaEjerciciosAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\ListaEjerciciosPopUpAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\ListaRutinasAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\ListaSeriesPopUpAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\ViewAndroid\MainPageAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\NuevaRutinaAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\RegisterPageAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\RegistroAguaAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\RegistroEstresAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\RegistroPesoAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewAndroid\RegistroSuenoAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ViewAndroid\TiempoAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\ViewWindows\CalculadoraIMC.xaml">
+	  <MauiXaml Update="View\ViewWindows\BoxEntrenamiento.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\BoxPeso.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\BoxSalud.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ViewWindows\CronometroTemporizador.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\CalculadoraIMC.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\ListaEjercicios.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\ListaEjerciciosPopUp.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\ListaRutinas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\ListaSeriesPopUp.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\ViewWindows\MainPageWindows.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\NuevaRutina.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\RegisterPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\RegistroAguaWindows.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\RegistroEstresWindows.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\RegistroPesoWindows.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\ViewWindows\RegistroSuenoWindows.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

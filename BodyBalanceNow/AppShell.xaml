@@ -21,7 +21,7 @@
 
         <ShellContent
             Title="Entrenamiento"
-            Icon="heart.png"
+            Icon="entrenamiento2.png"
             x:Name="EntrenamientoTab"
             Route="BoxEntrenamiento" />
 

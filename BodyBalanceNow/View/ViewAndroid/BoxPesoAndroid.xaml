@@ -27,9 +27,9 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Source="scale.png"
-                               WidthRequest="40"
-                               HeightRequest="40"
+                        <Image Source="imc.png"
+                               WidthRequest="42"
+                               HeightRequest="42"
                                VerticalOptions="Center"
                                Grid.Column="0"
                                Margin="10,0,0,0" />
@@ -72,9 +72,9 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Image Source="peso.png"
-                               WidthRequest="40"
-                               HeightRequest="40"
+                        <Image Source="scale.png"
+                               WidthRequest="38"
+                               HeightRequest="38"
                                VerticalOptions="Center"
                                Grid.Column="0"
                                Margin="10,0,0,0" />

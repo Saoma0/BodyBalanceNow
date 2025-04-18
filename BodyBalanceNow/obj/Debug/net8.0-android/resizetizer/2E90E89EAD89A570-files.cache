@@ -7,8 +7,10 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\drop.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\editar.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\entrenamiento.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\entrenamiento2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\heart.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\house.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\imc.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\info.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\login.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\ojo.png

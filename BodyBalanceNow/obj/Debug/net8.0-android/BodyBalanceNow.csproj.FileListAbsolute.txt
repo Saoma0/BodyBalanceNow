@@ -1112,3 +1112,5 @@ C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debu
 C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\resizetizer\r\drawable\configuraciones.png
 C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\resizetizer\r\drawable\editar.png
 C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\resizetizer\r\drawable\series.png
+C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\resizetizer\r\drawable\entrenamiento2.png
+C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\resizetizer\r\drawable\imc.png

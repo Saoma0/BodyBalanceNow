@@ -22,7 +22,7 @@
             </Frame>
 
             <Grid WidthRequest="420" HeightRequest="80">
-                <Image Source="rutina_crear.png"
+                <Image Source="corazon.png"
                        WidthRequest="48"
                        HeightRequest="48"
                        VerticalOptions="Center"
@@ -59,7 +59,7 @@
             </Frame>
 
             <Grid WidthRequest="420" HeightRequest="80">
-                <Image Source="rutina_ver.png"
+                <Image Source="entrenamiento.png"
                        WidthRequest="48"
                        HeightRequest="48"
                        VerticalOptions="Center"

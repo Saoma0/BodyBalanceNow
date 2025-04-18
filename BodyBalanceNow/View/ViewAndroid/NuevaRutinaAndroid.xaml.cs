@@ -87,7 +87,7 @@ namespace BodyBalanceNow.View.ViewAndroid
 
         private async void OnAddExerciseInRoutine(object sender, EventArgs e)
         {
-            var button = sender as Button;
+            var button = sender as ImageButton;
             if (button == null) return;
 
             var ejercicio = button.BindingContext as Ejercicios;
@@ -159,7 +159,7 @@ namespace BodyBalanceNow.View.ViewAndroid
 
         private void OnInfo(object sender, EventArgs e)
         {
-            var button = sender as Button;
+            var button = sender as ImageButton;
             if (button?.BindingContext is Ejercicios ejercicio)
             {
                 var popup = new ListaEjerciciosPopUpAndroid(ejercicio);

@@ -41,6 +41,14 @@ public partial class ListaRutinas : ContentPage
     private async void OnEditarClicked(object sender, EventArgs e)
     {
         string nombreRutina = await DisplayPromptAsync("Nuevo Nombre", "Escribe el nuevo nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
+
+        // Validación de entrada vacía o solo espacios
+        if (string.IsNullOrWhiteSpace(nombreRutina))
+        {
+            await DisplayAlert("Nombre inválido", "El nombre no puede estar vacío.", "Aceptar");
+            return;
+        }
+
         var imagebutton = sender as ImageButton;
         if (imagebutton == null) return;
 
@@ -53,9 +61,10 @@ public partial class ListaRutinas : ContentPage
 
         int rutinaID = rutina.ID;
 
-        await db.EditarNombreRutinaAsync(rutinaID, nombreRutina);
+        await db.EditarNombreRutinaAsync(rutinaID, nombreRutina.Trim());
         cargarRutinas();
     }
+
 
     private async void OnEliminarClicked(object sender, EventArgs e)
     {

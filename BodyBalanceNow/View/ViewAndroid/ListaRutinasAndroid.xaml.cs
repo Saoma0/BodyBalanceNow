@@ -71,12 +71,17 @@ public partial class ListaRutinasAndroid : ContentPage
 
             case "Modificar":
                 string nombreRutina = await DisplayPromptAsync("Nuevo Nombre", "Escribe el nuevo nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
-                if (!string.IsNullOrEmpty(nombreRutina))
+
+                if (string.IsNullOrWhiteSpace(nombreRutina))
                 {
-                    await db.EditarNombreRutinaAsync(rutinaID, nombreRutina);
-                    cargarRutinas();
+                    await DisplayAlert("Nombre inválido", "El nombre no puede estar vacío.", "Aceptar");
+                    break;
                 }
+
+                await db.EditarNombreRutinaAsync(rutinaID, nombreRutina.Trim());
+                cargarRutinas();
                 break;
+
 
             case "Ver Detalles":
                 await Navigation.PushAsync(new ListaEjerciciosAndroid(rutinaID));

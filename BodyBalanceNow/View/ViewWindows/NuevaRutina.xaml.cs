@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using BodyBalanceNow.Services;
+
 namespace BodyBalanceNow.View.ViewWindows
 {
     public partial class NuevaRutina : ContentPage
@@ -11,6 +12,11 @@ namespace BodyBalanceNow.View.ViewWindows
         ObservableCollection<Ejercicios> ListaResumen = new ObservableCollection<Ejercicios>();
         private int idUsuarioActual = Preferences.Get("current_user_id", -1);
         private bool usuarioAutenticado = false;
+
+        private int tamañoPagina = 30; // Número de registros por página
+        private int paginaActual = 1; // Página actual
+        private int totalPaginas; // Total de páginas
+
         public NuevaRutina()
         {
             InitializeComponent();
@@ -26,39 +32,17 @@ namespace BodyBalanceNow.View.ViewWindows
             if (!usuarioAutenticado || idUsuarioActual == -1)
             {
                 await DisplayAlert("Atención", "Debes iniciar sesión para crear una rutina.", "Cerrar");
-                await Navigation.PopAsync(); // Opcional: regresar a la pantalla anterior
+                await Navigation.PopAsync(); // Regresar a la pantalla anterior
                 return;
             }
 
-            // Mostrar el prompt para ingresar el nombre de la rutina
-            string nombreRutina = await DisplayPromptAsync("Nueva Rutina", "Escribe el nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
-
-            // Verificar si el nombre no está vacío ni es nulo
-            if (!string.IsNullOrEmpty(nombreRutina))
-            {
-                // Si el nombre es válido, insertar en la base de datos
-                idRutina = db.InsertarRutina(nombreRutina, idUsuarioActual); // Añadir id usuario cuando lo pases al proyecto final
-                Debug.WriteLine($"Nombre ingresado: {nombreRutina}");
-
-                // Llamar a la función para cargar ejercicios después de la inserción
-                cargarEjercicios();
-            }
-            else
-            {
-                // Si el nombre es nulo o vacío, no hacer nada
-                Debug.WriteLine("El usuario canceló o no ingresó un nombre.");
-            }
+            cargarEjercicios();
         }
 
-
-
-        private int tamañoPagina = 30; // Número de registros por página
-        private int paginaActual = 1; // Página actual
-        private int totalPaginas; // Total de páginas
         public void cargarEjercicios()
         {
             int totalRegistros = db.GetCantidadDatos();
-            int totalPaginas = (int)Math.Ceiling((double)totalRegistros / tamañoPagina);
+            totalPaginas = (int)Math.Ceiling((double)totalRegistros / tamañoPagina);
 
             var ejercicios = db.GetEjerciciosPorPagina(paginaActual, tamañoPagina);
             pActual.Text = paginaActual.ToString();
@@ -80,7 +64,7 @@ namespace BodyBalanceNow.View.ViewWindows
 
         private async void OnSiguienteClicked(object sender, EventArgs e)
         {
-            if (paginaActual > totalPaginas)
+            if (paginaActual < totalPaginas)
             {
                 paginaActual++;
                 cargarEjercicios();
@@ -93,7 +77,7 @@ namespace BodyBalanceNow.View.ViewWindows
 
         private void OnAddExerciseInRoutine(object sender, EventArgs e)
         {
-            var button = sender as Button;
+            var button = sender as ImageButton;
             if (button == null) return;
 
             var ejercicio = button.BindingContext as Ejercicios;
@@ -107,18 +91,16 @@ namespace BodyBalanceNow.View.ViewWindows
             if (ListaResumen.Any(ex => ex.ID == ejercicio.ID))
             {
                 DisplayAlert("Error", "Ejercicio ya añadido", "Cerrar");
-                return; // No lo añadimos si ya existe
+                return;
             }
 
-            // Si no está en la lista, lo añadimos
             ListaResumen.Add(ejercicio);
             resumenEntrenamiento.ItemsSource = ListaResumen;
         }
 
         private void OnRemoveExerciseFromRoutine(object sender, EventArgs e)
         {
-
-            var button = sender as Button;
+            var button = sender as ImageButton;
             if (button == null) return;
 
             var ejercicio = button.BindingContext as Ejercicios;
@@ -132,27 +114,42 @@ namespace BodyBalanceNow.View.ViewWindows
             resumenEntrenamiento.ItemsSource = ListaResumen;
         }
 
-        private void OnAddRoutine(object sender, EventArgs e)
+        private async void OnAddRoutine(object sender, EventArgs e)
         {
-            foreach (Ejercicios ejercicios in ListaResumen)
+            if (ListaResumen.Count == 0)
             {
-                db.InsertarEjercicioEnRutina(idRutina,ejercicios);
+                await DisplayAlert("Atención", "No se pueden guardar rutinas vacías.", "Cerrar");
+                return;
             }
 
-            ListaResumen.Clear();
-            DisplayAlert("Exito","Rutina Guardada","Cerrar");
+            string nombreRutina = await DisplayPromptAsync("Nueva Rutina", "Escribe el nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
+
+            if (!string.IsNullOrEmpty(nombreRutina))
+            {
+                idRutina = db.InsertarRutina(nombreRutina, idUsuarioActual);
+
+                foreach (Ejercicios ejercicio in ListaResumen)
+                {
+                    db.InsertarEjercicioEnRutina(idRutina, ejercicio);
+                }
+
+                ListaResumen.Clear();
+                await DisplayAlert("Éxito", "Rutina Guardada", "Cerrar");
+            }
+            else
+            {
+                await DisplayAlert("Error", "El nombre de la rutina no puede estar vacío.", "Cerrar");
+            }
         }
 
         private void OnInfo(object sender, EventArgs e)
         {
-            var button = sender as Button;
+            var button = sender as ImageButton;
             if (button?.BindingContext is Ejercicios ejercicio)
             {
                 var popup = new ListaEjerciciosPopUp(ejercicio);
                 this.ShowPopup(popup);
             }
         }
-
     }
-
 }

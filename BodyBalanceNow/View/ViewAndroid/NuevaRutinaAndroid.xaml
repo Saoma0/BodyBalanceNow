@@ -72,22 +72,18 @@
                                                      Spacing="10"
                                                      HorizontalOptions="End"
                                                      VerticalOptions="EndAndExpand">
-                                            <Button Text="ℹ️"
-                                                    BackgroundColor="#EDEFF2"
-                                                    TextColor="#1F2A44"
+                                            <ImageButton 
+                                                    Source="info.png"
                                                     CornerRadius="12"
                                                     WidthRequest="40"
                                                     HeightRequest="40"
-                                                    FontSize="14"
                                                     Clicked="OnInfo"
                                                     Padding="0" />
-                                            <Button Text="+"
-                                                    BackgroundColor="#1F2A44"
-                                                    TextColor="White"
+                                            <ImageButton 
+                                                    Source="anadir.png"
                                                     CornerRadius="12"
                                                     WidthRequest="40"
                                                     HeightRequest="40"
-                                                    FontSize="14"
                                                     Clicked="OnAddExerciseInRoutine"
                                                     Padding="0" />
                                         </StackLayout>

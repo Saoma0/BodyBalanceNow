@@ -36,7 +36,8 @@
             </Grid>
             <CollectionView x:Name="listaRutinasUsuario" 
                     SelectionMode="None"
-                    BackgroundColor="Transparent">
+                    BackgroundColor="Transparent"
+                            VerticalOptions="FillAndExpand">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid Padding="10" 
@@ -58,7 +59,7 @@
                                            Spacing="15"
                                            HorizontalOptions="Center"
                                            VerticalOptions="Center">
-                                <ImageButton Source="papel.png"
+                                <ImageButton Source="info.png"
                                      Clicked="OnVerRutinaClicked"
                                      WidthRequest="45"
                                      HeightRequest="45"
@@ -67,7 +68,7 @@
                                      Padding="5"
                                      ToolTipProperties.Text="Ver ejercicios de la rutina" />
 
-                                <ImageButton Source="botoneditar.png"
+                                <ImageButton Source="editar.png"
                                      Clicked="OnEditarClicked"
                                      WidthRequest="45"
                                      HeightRequest="45"

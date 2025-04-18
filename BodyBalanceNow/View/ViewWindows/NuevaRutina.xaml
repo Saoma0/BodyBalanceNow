@@ -57,21 +57,17 @@
                                     <StackLayout Orientation="Horizontal" 
                                                 Spacing="8"
                                                 HorizontalOptions="End">
-                                        <Button Text="ℹ️" 
-                                                BackgroundColor="#EDEFF2"
-                                                TextColor="#1F2A44"
+                                        <ImageButton 
+                                                Source="info.png"
                                                 CornerRadius="12"
                                                 WidthRequest="35"
                                                 HeightRequest="35"
-                                                FontSize="13" 
                                                 Clicked="OnInfo"/>
-                                        <Button Text="+"
-                                                BackgroundColor="Black"
-                                                TextColor="White"
+                                        <ImageButton 
+                                                Source="anadir.png"
                                                 CornerRadius="12"
                                                 WidthRequest="35"
                                                 HeightRequest="35"
-                                                FontSize="13" 
                                                 Clicked="OnAddExerciseInRoutine"/>
                                     </StackLayout>
                                 </StackLayout>
@@ -123,11 +119,8 @@
                                                    FontSize="12" 
                                                    TextColor="#64748B" />
                                         </StackLayout>
-                                        <Button Grid.Column="1" 
-                                                Text="X" 
-                                                BackgroundColor="Transparent" 
-                                                TextColor="#EF4444" 
-                                                FontSize="14" 
+                                        <ImageButton Grid.Column="1" 
+                                                Source="delete.png"
                                                 WidthRequest="30" 
                                                 HeightRequest="30" 
                                                 VerticalOptions="Center" 

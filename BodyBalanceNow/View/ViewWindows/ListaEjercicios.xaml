@@ -45,7 +45,8 @@
 
             <CollectionView x:Name="listaEjerciciosRutina" 
                             SelectionMode="None"
-                            BackgroundColor="Transparent">
+                            BackgroundColor="Transparent"
+                            VerticalOptions="FillAndExpand">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid Padding="10" 
@@ -75,16 +76,16 @@
                                                    Spacing="8"
                                                    HorizontalOptions="Center"
                                                    VerticalOptions="Center">
-                                <ImageButton Source="papel"
+                                <ImageButton Source="series.png"
                                              WidthRequest="25"
                                              HeightRequest="25"
                                              BackgroundColor="Orange"
                                              CornerRadius="8"
                                              Padding="5"
-                                             ToolTipProperties.Text="Ver detalles"
+                                             ToolTipProperties.Text="Ver Series"
                                              Clicked="OnVerEjercicioClicked" />
 
-                                <ImageButton Source="tachodereciclaje"
+                                <ImageButton Source="delete.png"
                                              WidthRequest="25"
                                              HeightRequest="25"
                                              BackgroundColor="#EF5350"
@@ -93,7 +94,7 @@
                                              ToolTipProperties.Text="Eliminar"
                                              Clicked="OnEliminarEjercicioClicked" />
 
-                                <ImageButton Source="editar"
+                                <ImageButton Source="info.png"
                                              WidthRequest="25"
                                              HeightRequest="25"
                                              BackgroundColor="#4CAF50"

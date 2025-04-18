@@ -61,7 +61,8 @@
                 <!-- Lista de Ejercicios -->
                 <CollectionView x:Name="listaEjerciciosRutina"
                                 SelectionMode="None"
-                                BackgroundColor="Transparent">
+                                BackgroundColor="Transparent"
+                                VerticalOptions="FillAndExpand">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <Grid Padding="10"
@@ -90,7 +91,7 @@
                                                        HorizontalOptions="Center"
                                                        VerticalOptions="Center"
                                                        Margin="0,0,10,0">
-                                    <ImageButton Source="delete.png"
+                                    <ImageButton Source="configuraciones.png"
                                                  WidthRequest="30"
                                                  HeightRequest="30"
                                                  BackgroundColor="Transparent"

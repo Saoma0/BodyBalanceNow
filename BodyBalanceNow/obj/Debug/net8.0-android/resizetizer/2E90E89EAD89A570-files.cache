@@ -1,9 +1,15 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\candado.png
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\anadir.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\candado.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\configuraciones.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\corazon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\delete.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\drop.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\editar.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\email.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\entrenamiento.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\heart.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\house.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\info.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\login.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\ojo.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\pause.png
@@ -11,6 +17,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\peso.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\play.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\reset.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\scale.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\series.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\sleep.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\stopwatch.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\stress.png

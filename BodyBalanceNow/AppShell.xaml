@@ -20,27 +20,28 @@
             Route="MainPage" />
 
         <ShellContent
+            Title="Entrenamiento"
+            Icon="heart.png"
+            x:Name="EntrenamientoTab"
+            Route="BoxEntrenamiento" />
+
+        <ShellContent
             Title="Peso"
             Icon="scale.png"
             x:Name="PesoTab"
             Route="RegistroPesoWindows" />
 
-        <ShellContent
-            Title="Tiempo"
-            Icon="timer.png"
-            x:Name="TiempoTab"
-            Route="CronometroTemporizador" />
 
         <ShellContent
             Title="Salud"
             Icon="heart.png"
             x:Name="SaludTab"
             Route="BoxSalud" />
-        <ShellContent
-            Title="Entrenamiento"
-            Icon="heart.png"
-            x:Name="EntrenamientoTab"
-            Route="BoxEntrenamiento" />
 
+        <ShellContent
+            Title="Tiempo"
+            Icon="timer.png"
+            x:Name="TiempoTab"
+            Route="CronometroTemporizador" />
     </TabBar>
 </Shell>

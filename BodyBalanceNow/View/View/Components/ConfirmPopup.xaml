@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Class="BodyBalanceNow.View.Components.ConfirmPopup"
+    CanBeDismissedByTappingOutsideOfPopup="False"
+    Color="Transparent">
+
+
+    <Border 
+           BackgroundColor="White" 
+           Stroke="Gray" 
+           Padding="25" 
+           WidthRequest="250"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           StrokeThickness="1"
+           StrokeShape="RoundRectangle 20">
+
+        <VerticalStackLayout Spacing="15">
+            <Label x:Name="MessageLabel"
+                   Text="¿Estás seguro?"
+                   FontSize="16"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                <Button Text="Sí"
+                        Clicked="OnYesClicked"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        WidthRequest="80"/>
+                <Button Text="No"
+                        Clicked="OnNoClicked"
+                        BackgroundColor="#F44336"
+                        TextColor="White"
+                        WidthRequest="80"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+    </Border>
+
+</toolkit:Popup>

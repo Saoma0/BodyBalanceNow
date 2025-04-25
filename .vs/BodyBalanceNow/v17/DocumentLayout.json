@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\viewandroid\\mainpageandroid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\viewandroid\\mainpageandroid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\viewwindows\\boxpeso.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\viewwindows\\boxpeso.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\viewandroid\\boxpesoandroid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\viewandroid\\boxpesoandroid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\viewandroid\\nuevarutinaandroid.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\viewandroid\\nuevarutinaandroid.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|c:\\users\\samue\\desktop\\proyectofinalgrado\\bodybalancenow\\bodybalancenow\\view\\viewwindows\\nuevarutina.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E9CE71-4FAD-404D-9EC7-51E20BF4D81D}|BodyBalanceNow\\BodyBalanceNow.csproj|solutionrelative:bodybalancenow\\view\\viewwindows\\nuevarutina.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,102 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPageAndroid.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewAndroid\\MainPageAndroid.xaml",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\ViewAndroid\\MainPageAndroid.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewAndroid\\MainPageAndroid.xaml",
-              "RelativeToolTip": "BodyBalanceNow\\View\\ViewAndroid\\MainPageAndroid.xaml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T11:51:57.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BoxPeso.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewWindows\\BoxPeso.xaml",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\ViewWindows\\BoxPeso.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewWindows\\BoxPeso.xaml",
-              "RelativeToolTip": "BodyBalanceNow\\View\\ViewWindows\\BoxPeso.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T11:50:44.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BoxPesoAndroid.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewAndroid\\BoxPesoAndroid.xaml",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\ViewAndroid\\BoxPesoAndroid.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewAndroid\\BoxPesoAndroid.xaml",
-              "RelativeToolTip": "BodyBalanceNow\\View\\ViewAndroid\\BoxPesoAndroid.xaml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAFIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T11:50:09.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\AppShell.xaml",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\AppShell.xaml",
-              "RelativeToolTip": "BodyBalanceNow\\AppShell.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T11:49:17.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\App.xaml",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\App.xaml",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\App.xaml",
-              "RelativeToolTip": "BodyBalanceNow\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T11:49:16.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NuevaRutinaAndroid.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewAndroid\\NuevaRutinaAndroid.xaml.cs",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\ViewAndroid\\NuevaRutinaAndroid.xaml.cs",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewAndroid\\NuevaRutinaAndroid.xaml.cs",
-              "RelativeToolTip": "BodyBalanceNow\\View\\ViewAndroid\\NuevaRutinaAndroid.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwHcAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:36:22.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NuevaRutina.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewWindows\\NuevaRutina.xaml.cs",
-              "RelativeDocumentMoniker": "BodyBalanceNow\\View\\ViewWindows\\NuevaRutina.xaml.cs",
-              "ToolTip": "C:\\Users\\samue\\Desktop\\ProyectoFinalGrado\\BodyBalanceNow\\BodyBalanceNow\\View\\ViewWindows\\NuevaRutina.xaml.cs",
-              "RelativeToolTip": "BodyBalanceNow\\View\\ViewWindows\\NuevaRutina.xaml.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAUwJsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:36:16.665Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -46,236 +46,230 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/Alertas/PopupAlert.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/Alertas/PopupAlert.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.Alertas.PopupAlert.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\Alertas\PopupAlert.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\Alertas\PopupAlert.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.Alertas.PopupAlert.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\Components\Alertas\PopupAlert.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\Components\Alertas\PopupAlert.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/Alertas/PopupAlertConfirmation.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/Alertas/PopupAlertConfirmation.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.Alertas.PopupAlertConfirmation.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\Alertas\PopupAlertConfirmation.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\Alertas\PopupAlertConfirmation.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.Alertas.PopupAlertConfirmation.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\Components\Alertas\PopupAlertConfirmation.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\Components\Alertas\PopupAlertConfirmation.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/CustomNavigationBar.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/ConfirmPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.CustomNavigationBar.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\CustomNavigationBar.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\CustomNavigationBar.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.ConfirmPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\Components\ConfirmPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\Components\ConfirmPopup.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/ExerciseListPopUp.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/CustomPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.ExerciseListPopUp.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\ExerciseListPopUp.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\ExerciseListPopUp.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.CustomPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\Components\CustomPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\Components\CustomPopup.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/NewExerciseForm.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/ExerciseListPopUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.NewExerciseForm.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\NewExerciseForm.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\NewExerciseForm.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.ExerciseListPopUp.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\Components\ExerciseListPopUp.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\Components\ExerciseListPopUp.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/NewPage1.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/OptionsPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.NewPage1.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\NewPage1.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\NewPage1.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.OptionsPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\Components\OptionsPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\Components\OptionsPopup.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/Components/OptionsPopup.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/BoxEntrenamientoAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.Components.OptionsPopup.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Components\OptionsPopup.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Components\OptionsPopup.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.BoxEntrenamientoAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\BoxEntrenamientoAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\BoxEntrenamientoAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/BoxEntrenamientoAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/BoxPesoAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.BoxEntrenamientoAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\BoxEntrenamientoAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\BoxEntrenamientoAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.BoxPesoAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\BoxPesoAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\BoxPesoAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/BoxPesoAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/BoxSaludAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.BoxPesoAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\BoxPesoAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\BoxPesoAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.BoxSaludAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\BoxSaludAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\BoxSaludAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/BoxSaludAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/CalculadoraIMCAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.BoxSaludAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\BoxSaludAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\BoxSaludAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.CalculadoraIMCAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\CalculadoraIMCAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\CalculadoraIMCAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/CalculadoraIMCAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/ListaEjerciciosAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.CalculadoraIMCAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\CalculadoraIMCAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\CalculadoraIMCAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.ListaEjerciciosAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\ListaEjerciciosAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\ListaEjerciciosAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/ListaEjerciciosAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/ListaEjerciciosPopUpAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.ListaEjerciciosAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\ListaEjerciciosAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\ListaEjerciciosAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.ListaEjerciciosPopUpAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\ListaEjerciciosPopUpAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\ListaEjerciciosPopUpAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/ListaEjerciciosPopUpAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/ListaRutinasAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.ListaEjerciciosPopUpAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\ListaEjerciciosPopUpAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\ListaEjerciciosPopUpAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.ListaRutinasAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\ListaRutinasAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\ListaRutinasAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/ListaRutinasAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/ListaSeriesPopUpAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.ListaRutinasAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\ListaRutinasAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\ListaRutinasAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.ListaSeriesPopUpAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\ListaSeriesPopUpAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\ListaSeriesPopUpAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/ListaSeriesPopUpAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/MainPageAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.ListaSeriesPopUpAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\ListaSeriesPopUpAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\ListaSeriesPopUpAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.MainPageAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\MainPageAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\MainPageAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/MainPageAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/NuevaRutinaAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.MainPageAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\MainPageAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\MainPageAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.NuevaRutinaAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\NuevaRutinaAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\NuevaRutinaAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/NuevaRutinaAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/RegisterPageAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.NuevaRutinaAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\NuevaRutinaAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\NuevaRutinaAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.RegisterPageAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\RegisterPageAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\RegisterPageAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/RegisterPageAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/RegistroAguaAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.RegisterPageAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\RegisterPageAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\RegisterPageAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.RegistroAguaAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\RegistroAguaAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\RegistroAguaAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/RegistroAguaAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/RegistroEstresAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.RegistroAguaAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\RegistroAguaAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\RegistroAguaAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.RegistroEstresAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\RegistroEstresAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\RegistroEstresAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/RegistroEstresAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/RegistroPesoAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.RegistroEstresAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\RegistroEstresAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\RegistroEstresAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.RegistroPesoAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\RegistroPesoAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\RegistroPesoAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/RegistroPesoAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/RegistroSuenoAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.RegistroPesoAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\RegistroPesoAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\RegistroPesoAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.RegistroSuenoAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\RegistroSuenoAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\RegistroSuenoAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/RegistroSuenoAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/TiempoAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.RegistroSuenoAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\RegistroSuenoAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\RegistroSuenoAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.TiempoAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\TiempoAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\TiempoAndroid.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewAndroid/TiempoAndroid.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/BoxEntrenamiento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewAndroid.TiempoAndroid.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewAndroid\TiempoAndroid.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewAndroid\TiempoAndroid.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.BoxEntrenamiento.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\BoxEntrenamiento.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\BoxEntrenamiento.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/BoxEntrenamiento.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/BoxPeso.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.BoxEntrenamiento.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\BoxEntrenamiento.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\BoxEntrenamiento.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.BoxPeso.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\BoxPeso.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\BoxPeso.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/BoxPeso.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/BoxSalud.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.BoxPeso.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\BoxPeso.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\BoxPeso.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.BoxSalud.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\BoxSalud.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\BoxSalud.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/BoxSalud.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/CalculadoraIMC.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.BoxSalud.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\BoxSalud.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\BoxSalud.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\CalculadoraIMC.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/CalculadoraIMC.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/CronometroTemporizador.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.CalculadoraIMC.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\CalculadoraIMC.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\CalculadoraIMC.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\CronometroTemporizador.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/CronometroTemporizador.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/ListaEjercicios.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.CronometroTemporizador.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\CronometroTemporizador.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\CronometroTemporizador.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.ListaEjercicios.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\ListaEjercicios.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\ListaEjercicios.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/ListaEjercicios.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/ListaEjerciciosPopUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.ListaEjercicios.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\ListaEjercicios.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\ListaEjercicios.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.ListaEjerciciosPopUp.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\ListaEjerciciosPopUp.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\ListaEjerciciosPopUp.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/ListaEjerciciosPopUp.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/ListaRutinas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.ListaEjerciciosPopUp.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\ListaEjerciciosPopUp.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\ListaEjerciciosPopUp.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.ListaRutinas.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\ListaRutinas.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\ListaRutinas.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/ListaRutinas.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/ListaSeriesPopUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.ListaRutinas.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\ListaRutinas.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\ListaRutinas.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.ListaSeriesPopUp.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\ListaSeriesPopUp.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\ListaSeriesPopUp.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/ListaSeriesPopUp.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/MainPageWindows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.ListaSeriesPopUp.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\ListaSeriesPopUp.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\ListaSeriesPopUp.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.MainPageWindows.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\MainPageWindows.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\MainPageWindows.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/MainPageWindows.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/NuevaRutina.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.MainPageWindows.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\MainPageWindows.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\MainPageWindows.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.NuevaRutina.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\NuevaRutina.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\NuevaRutina.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/NuevaRutina.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.NuevaRutina.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\NuevaRutina.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\NuevaRutina.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\RegisterPage.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/RegisterPage.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/RegistroAguaWindows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.RegisterPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\RegisterPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\RegisterPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.RegistroAguaWindows.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\RegistroAguaWindows.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\RegistroAguaWindows.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/RegistroAguaWindows.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/RegistroEstresWindows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.RegistroAguaWindows.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\RegistroAguaWindows.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\RegistroAguaWindows.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.RegistroEstresWindows.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\RegistroEstresWindows.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\RegistroEstresWindows.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/RegistroEstresWindows.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/RegistroPesoWindows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.RegistroEstresWindows.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\RegistroEstresWindows.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\RegistroEstresWindows.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.RegistroPesoWindows.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\RegistroPesoWindows.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\RegistroPesoWindows.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/RegistroPesoWindows.xaml]
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/RegistroSuenoWindows.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.RegistroPesoWindows.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\RegistroPesoWindows.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\RegistroPesoWindows.xaml
-
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/ViewWindows/RegistroSuenoWindows.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.ViewWindows.RegistroSuenoWindows.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ViewWindows\RegistroSuenoWindows.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ViewWindows\RegistroSuenoWindows.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.RegistroSuenoWindows.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\RegistroSuenoWindows.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\RegistroSuenoWindows.xaml

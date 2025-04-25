@@ -9,10 +9,22 @@
             
             Se utilizan los hilos para evitar los errores de la UI, forzando que se ejecute de forma correcta
         </member>
+        <member name="M:BodyBalanceNow.View.ViewAndroid.RegisterPageAndroid.OnRegisterUser(System.Object,System.EventArgs)">
+            Método para registrar un nuevo usuario
+        </member>
+        <member name="M:BodyBalanceNow.View.ViewAndroid.RegistroEstresAndroid.OnAppearing">
+            Método que se ejecuta al cargar la página
+        </member>
         <member name="T:BodyBalanceNow.View.ViewWindows.ListaEjerciciosPopUp">
             Se cambian los enlaces a enlaces embebidos para que solo cargue el video directo, no la página de YouTube
             
             Se utilizan los hilos para evitar los errores de la UI, forzando que se ejecute de forma correcta
+        </member>
+        <member name="M:BodyBalanceNow.View.ViewWindows.RegisterPage.OnRegisterUser(System.Object,System.EventArgs)">
+            Método para registrar un nuevo usuario
+        </member>
+        <member name="M:BodyBalanceNow.View.ViewWindows.RegistroEstresWindows.OnAppearing">
+            Método que se ejecuta al cargar la página
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>

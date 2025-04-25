@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Class="BodyBalanceNow.View.Components.CustomPopup"
+    CanBeDismissedByTappingOutsideOfPopup="False"
+    Color="Transparent">
+
+        
+        <!-- Popup visual -->
+    <Border 
+            BackgroundColor="White" 
+            Stroke="Gray" 
+            Padding="25" 
+            WidthRequest="250"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            StrokeThickness="1"
+            StrokeShape="RoundRectangle 20">
+
+        <VerticalStackLayout Spacing="10">
+            <Label x:Name="MessageLabel"
+                       Text="Texto del mensaje"
+                       FontSize="16"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center" />
+
+            <Button Text="Aceptar"
+                        Clicked="OnCloseClicked"
+                        BackgroundColor="#2196F3"
+                        TextColor="White"
+                        CornerRadius="20"
+                        WidthRequest="120"/>
+        </VerticalStackLayout>
+
+    </Border>
+
+</toolkit:Popup>

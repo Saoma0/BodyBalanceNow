@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TFGMultiplatform.Views.Components.Alertas.PopupAlert"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Color="Transparent"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             CanBeDismissedByTappingOutsideOfPopup="False"
+               >
+
+    <Frame Padding="20"
+           CornerRadius="15"
+           BackgroundColor="#FFFFFF"
+           HasShadow="True"
+           WidthRequest="300">
+        
+        <VerticalStackLayout Spacing="15">
+            
+            <!-- Título -->
+            <Label Text="¡Atención!"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="#2C3E50"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"/>
+
+            <!-- Descripción -->
+            <Label Text="Este es un mensaje importante para ti"
+                   FontSize="16"
+                   TextColor="#34495E"
+                   HorizontalTextAlignment="Center"
+                   LineBreakMode="WordWrap"/>
+
+            <!-- Botón -->
+            <Button Text="Entendido"
+                    BackgroundColor="#3498DB"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="10,5"
+                    FontAttributes="Bold"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="0,10,0,0"
+                    Clicked="OnCloseAlert"/>
+        </VerticalStackLayout>
+    </Frame>
+</toolkit:Popup>

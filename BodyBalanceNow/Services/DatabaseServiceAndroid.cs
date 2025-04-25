@@ -7,7 +7,7 @@ namespace BodyBalanceNow.Services
 {
     public class DatabaseServiceAndroid
     {
-        private string connectionString = "Server=10.0.2.2;Database=tfgdatabase;User Id = root; Password=S@6493483!!!!;";
+        private string connectionString = "Server=sql7.freesqldatabase.com;Port = 3306; Database=sql7774904;User Id = sql7774904; Password=ByqfDxIdsa;";
 
 
 

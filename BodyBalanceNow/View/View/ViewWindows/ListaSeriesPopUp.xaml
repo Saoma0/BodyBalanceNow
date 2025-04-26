@@ -106,16 +106,7 @@
                                 </Grid>
                             </Frame>
 
-                            <Button Text="Nueva Serie"
-                                    BackgroundColor="#3182CE"
-                                    TextColor="White"
-                                    CornerRadius="20"
-                                    FontSize="14"
-                                    Padding="10,5"
-                                    HeightRequest="40"
-                                    WidthRequest="150"
-                                    HorizontalOptions="Center"
-                                    Clicked="OnShowNewSeriesForm"/>
+                            
                         </VerticalStackLayout>
                     </CollectionView.Header>
 
@@ -136,7 +127,16 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Frame>
-
+            <Button Text="Nueva Serie"
+                    BackgroundColor="#3182CE"
+                    TextColor="White"
+                    CornerRadius="20"
+                    FontSize="14"
+                    Padding="10,5"
+                    HeightRequest="40"
+                    WidthRequest="150"
+                    HorizontalOptions="Center"
+                    Clicked="OnShowNewSeriesForm"/>
             <Button Text="Cerrar"
                     BackgroundColor="#E53E3E"
                     TextColor="White"

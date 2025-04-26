@@ -139,6 +139,7 @@ public partial class TiempoAndroid : ContentPage
                     audioPlayer.Play();
                     var popup = new CustomPopup("El temporizador ha terminado.");
                     this.ShowPopup(popup);
+                    await Task.Delay(5000);
                     audioPlayer.Stop();
                     ActualizarEstadosActivos();
                 });

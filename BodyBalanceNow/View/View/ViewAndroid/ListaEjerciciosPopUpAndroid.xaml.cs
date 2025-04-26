@@ -77,7 +77,7 @@ public partial class ListaEjerciciosPopUpAndroid : Popup
     {
         MainThread.BeginInvokeOnMainThread(() =>
         {
-            WebViewPantallaCompleta.Source = null;  // Limpiamos el contenido del WebView
+            WebViewPantallaCompleta.Source = "about:blank"; // Carga una página en blanco para asegurarse de que cierre cualquier reproduccion activa
         });
     }
 }

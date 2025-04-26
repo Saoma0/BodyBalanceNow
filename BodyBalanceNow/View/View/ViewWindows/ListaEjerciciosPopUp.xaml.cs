@@ -70,6 +70,7 @@ public partial class ListaEjerciciosPopUp : Popup
     {
         ContenedorVideoFrame.IsVisible = false;
         CerrarWebView();
+        
         ContenedorInfo.IsVisible = true;
     }
 
@@ -77,7 +78,8 @@ public partial class ListaEjerciciosPopUp : Popup
     {
         MainThread.BeginInvokeOnMainThread(() =>
         {
-            WebViewPantallaCompleta.Source = null;  // Limpiamos el contenido del WebView
+            WebViewPantallaCompleta.Source = "about:blank"; // Carga una página en blanco para asegurarse de que cierre cualquier reproduccion activa
+
         });
     }
 }

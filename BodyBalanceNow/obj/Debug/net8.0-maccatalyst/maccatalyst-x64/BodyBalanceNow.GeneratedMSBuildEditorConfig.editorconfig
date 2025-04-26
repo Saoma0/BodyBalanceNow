@@ -42,18 +42,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/Alertas/PopupAlert.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.Alertas.PopupAlert.xaml
-build_metadata.AdditionalFiles.TargetPath = View\View\Components\Alertas\PopupAlert.xaml
-build_metadata.AdditionalFiles.RelativePath = View\View\Components\Alertas\PopupAlert.xaml
-
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/Alertas/PopupAlertConfirmation.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.Alertas.PopupAlertConfirmation.xaml
-build_metadata.AdditionalFiles.TargetPath = View\View\Components\Alertas\PopupAlertConfirmation.xaml
-build_metadata.AdditionalFiles.RelativePath = View\View\Components\Alertas\PopupAlertConfirmation.xaml
-
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/ConfirmPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.ConfirmPopup.xaml
@@ -65,12 +53,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.CustomPopup.xaml
 build_metadata.AdditionalFiles.TargetPath = View\View\Components\CustomPopup.xaml
 build_metadata.AdditionalFiles.RelativePath = View\View\Components\CustomPopup.xaml
-
-[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/ExerciseListPopUp.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.Components.ExerciseListPopUp.xaml
-build_metadata.AdditionalFiles.TargetPath = View\View\Components\ExerciseListPopUp.xaml
-build_metadata.AdditionalFiles.RelativePath = View\View\Components\ExerciseListPopUp.xaml
 
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/Components/OptionsPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

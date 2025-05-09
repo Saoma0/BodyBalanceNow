@@ -43,5 +43,11 @@
             Icon="timer.png"
             x:Name="TiempoTab"
             Route="CronometroTemporizador" />
+
+        <ShellContent
+            Title="Estadisticas"
+            Icon="statistics.png"
+            x:Name="estadisticasTab"
+            Route="StatisticsPage" />
     </TabBar>
 </Shell>

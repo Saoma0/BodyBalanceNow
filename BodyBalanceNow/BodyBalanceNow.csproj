@@ -39,11 +39,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<!-- App icon for Windows -->
+		<MauiIcon Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'" Include="Resources\AppIcon\applogoswin.png" ForegroundScale="1.5" />
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\applogo.png" ForegroundScale="0.70" />
 
-		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+
+		<MauiIcon Include="Resources\Splash\applogosplash.png">
+			<Color>White</Color>
+			<ForegroundScale>0.85</ForegroundScale>
+		</MauiIcon>
+		<MauiSplashScreen Include="Resources\Splash\applogosplash.png" Color="White" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -212,6 +218,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\ViewWindows\RegistroSuenoWindows.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\View\ViewAndroid\StatisticsPageAndroid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\View\ViewWindows\StatisticsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

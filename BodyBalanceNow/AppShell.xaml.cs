@@ -17,6 +17,7 @@ public partial class AppShell : Shell
         TiempoTab.ContentTemplate = new DataTemplate(typeof(TiempoAndroid));
         SaludTab.ContentTemplate = new DataTemplate(typeof(BoxSaludAndroid));
         EntrenamientoTab.ContentTemplate = new DataTemplate(typeof(BoxEntrenamientoAndroid));
+        estadisticasTab.ContentTemplate = new DataTemplate(typeof(StatisticsPageAndroid));
 
         Routing.RegisterRoute("RegisterPage", typeof(RegisterPageAndroid));
 #elif WINDOWS
@@ -25,9 +26,10 @@ public partial class AppShell : Shell
         TiempoTab.ContentTemplate = new DataTemplate(typeof(CronometroTemporizador));
         SaludTab.ContentTemplate = new DataTemplate(typeof(BoxSalud));
         EntrenamientoTab.ContentTemplate = new DataTemplate(typeof(BoxEntrenamiento));
+        estadisticasTab.ContentTemplate = new DataTemplate(typeof(StatisticsPage));
 
 
-        Routing.RegisterRoute("RegisterPage", typeof(RegisterPage)); 
+        Routing.RegisterRoute("RegisterPage", typeof(RegisterPage));
 
 #else
 

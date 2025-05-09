@@ -11,7 +11,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <permission android:name="com.companyname.bodybalancenow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.bodybalancenow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc6434db0ba2226338e3.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="BodyBalanceNow" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+  <application android:name="crc6434db0ba2226338e3.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/applogo" android:label="BodyBalanceNow" android:roundIcon="@mipmap/applogo_round" android:supportsRtl="true">
     <activity android:name="crc6434db0ba2226338e3.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

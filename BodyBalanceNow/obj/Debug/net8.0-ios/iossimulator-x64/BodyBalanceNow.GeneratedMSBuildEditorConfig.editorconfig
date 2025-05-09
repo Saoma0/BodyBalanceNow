@@ -150,6 +150,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.V
 build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\RegistroSuenoAndroid.xaml
 build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\RegistroSuenoAndroid.xaml
 
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/StatisticsPageAndroid.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.StatisticsPageAndroid.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewAndroid\StatisticsPageAndroid.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewAndroid\StatisticsPageAndroid.xaml
+
 [C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewAndroid/TiempoAndroid.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewAndroid.TiempoAndroid.xaml
@@ -251,3 +257,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.RegistroSuenoWindows.xaml
 build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\RegistroSuenoWindows.xaml
 build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\RegistroSuenoWindows.xaml
+
+[C:/Users/samue/Desktop/ProyectoFinalGrado/BodyBalanceNow/BodyBalanceNow/View/View/ViewWindows/StatisticsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BodyBalanceNow.View.View.ViewWindows.StatisticsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\View\ViewWindows\StatisticsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\View\ViewWindows\StatisticsPage.xaml

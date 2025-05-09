@@ -12,7 +12,7 @@
   <Properties>
     <DisplayName>BodyBalanceNow</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
-    <Logo>appiconStoreLogo.png</Logo>
+    <Logo>applogoswinStoreLogo.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
@@ -24,14 +24,14 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="BodyBalanceNow.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="BodyBalanceNow" Description="BodyBalanceNow" Square150x150Logo="appiconMediumTile.png" Square44x44Logo="appiconLogo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="appiconSmallTile.png" Wide310x150Logo="appiconWideTile.png" Square310x310Logo="appiconLargeTile.png" ShortName="BodyBalanceNow">
+      <uap:VisualElements DisplayName="BodyBalanceNow" Description="BodyBalanceNow" Square150x150Logo="applogoswinMediumTile.png" Square44x44Logo="applogoswinLogo.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="applogoswinSmallTile.png" Wide310x150Logo="applogoswinWideTile.png" Square310x310Logo="applogoswinLargeTile.png" ShortName="BodyBalanceNow">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="splashSplashScreen.png" />
+        <uap:SplashScreen Image="applogosplashSplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

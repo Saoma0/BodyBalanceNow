@@ -1,0 +1,156 @@
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="BodyBalanceNow.View.ViewWindows.StatisticsPage"
+    xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
+    Title="Estadísticas"
+    BackgroundColor="#F0F4F8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Margin="30,0" Spacing="20" HorizontalOptions="Center" WidthRequest="900">
+
+            <!-- Filtros -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <material:DropdownField 
+                    x:Name="pickerAño"
+                    Title="Año"
+                    WidthRequest="100" 
+                    AccentColor="Black"/>
+
+                <material:DropdownField 
+                    x:Name="pickerMes"
+                    Title="Mes"
+                    WidthRequest="100" 
+                    AccentColor="Black"/>
+
+                <material:DropdownField 
+                    x:Name="pickerSemana"
+                    Title="Semana"
+                    WidthRequest="120"
+                    AccentColor="Black"/>
+            </HorizontalStackLayout>
+
+            <!-- Gráficos en cuadrícula -->
+            <Grid RowSpacing="20" ColumnSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Gráfico 1: Sueño -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="0" Spacing="10">
+                    <Label Text="Historial de Sueño" FontAttributes="Bold" FontSize="20" TextColor="#2C3E50" />
+                    <Frame CornerRadius="20" BackgroundColor="White" HasShadow="True" Padding="10">
+                        <HorizontalStackLayout Spacing="10">
+                            <!-- Leyenda Sueño -->
+                            <VerticalStackLayout WidthRequest="70" VerticalOptions="Center" Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="MediumSeaGreen" />
+                                    <Label Text="Alto" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Orange" />
+                                    <Label Text="Medio" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="LightCoral" />
+                                    <Label Text="Bajo" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                            </VerticalStackLayout>
+
+                            <!-- Gráfico Sueño -->
+                            <Grid x:Name="graficoSueno" ColumnSpacing="5" VerticalOptions="End" HorizontalOptions="Center" HeightRequest="160"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <!-- Gráfico 2: Peso -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="10">
+                    <Label Text="Historial de Peso" FontAttributes="Bold" FontSize="20" TextColor="#2C3E50" />
+                    <Frame CornerRadius="20" BackgroundColor="White" HasShadow="True" Padding="10">
+                        <HorizontalStackLayout Spacing="10">
+                            <!-- Leyenda Peso -->
+                            <VerticalStackLayout WidthRequest="90" VerticalOptions="Center" Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Green" />
+                                    <Label Text="Mínimo" FontSize="12" TextColor="#2C3E50"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="#FFB300" />
+                                    <Label Text="Intermedio" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Red" />
+                                    <Label Text="Máximo" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                            </VerticalStackLayout>
+
+                            <!-- Gráfico Peso -->
+                            <Grid x:Name="graficoPeso" ColumnSpacing="5" VerticalOptions="End" HorizontalOptions="Center" HeightRequest="160"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <!-- Gráfico 3: Estrés -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" Spacing="10">
+                    <Label Text="Historial de Estrés" FontAttributes="Bold" FontSize="20" TextColor="#2C3E50" />
+                    <Frame CornerRadius="20" BackgroundColor="White" HasShadow="True" Padding="10">
+                        <HorizontalStackLayout Spacing="10">
+                            <!-- Leyenda Estrés -->
+                            <VerticalStackLayout WidthRequest="70" VerticalOptions="Center" Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Teal" />
+                                    <Label Text="Bajo" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="#FFB300" />
+                                    <Label Text="Medio" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="OrangeRed" />
+                                    <Label Text="Alto" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                            </VerticalStackLayout>
+
+                            <!-- Gráfico Estrés -->
+                            <Grid x:Name="graficoEstres" ColumnSpacing="5" VerticalOptions="End" HorizontalOptions="Center" HeightRequest="160"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <!-- Gráfico 4: Agua -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="1" Spacing="10">
+                    <Label Text="Historial de Agua" FontAttributes="Bold" FontSize="20" TextColor="#2C3E50" />
+                    <Frame CornerRadius="20" BackgroundColor="White" HasShadow="True" Padding="10">
+                        <HorizontalStackLayout Spacing="10">
+                            <!-- Leyenda Agua -->
+                            <VerticalStackLayout WidthRequest="90" VerticalOptions="Center" Spacing="20">
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="Red" />
+                                    <Label Text="Bajo" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="#FFB300" />
+                                    <Label Text="Medio" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="Center">
+                                    <BoxView HeightRequest="1" WidthRequest="20" BackgroundColor="MediumSeaGreen" />
+                                    <Label Text="Objetivo" FontSize="12" TextColor="#2C3E50" />
+                                </StackLayout>
+                            </VerticalStackLayout>
+
+                            <!-- Gráfico Agua -->
+                            <Grid x:Name="graficoAgua" ColumnSpacing="5" VerticalOptions="End" HorizontalOptions="Center" HeightRequest="160"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

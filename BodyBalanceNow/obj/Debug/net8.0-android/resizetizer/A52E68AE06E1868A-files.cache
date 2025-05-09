@@ -1,4 +1,5 @@
-﻿obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
+﻿obj\Debug\net8.0-android\resizetizer\sp\drawable\applogosplash.png
+obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\splash.png
 obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\splash.png
 obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml

@@ -2,6 +2,10 @@
 @string/appbar_scrolling_view_behavior;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\163\jl\res\layout\navigationlayout.xml
 adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo_round.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash_round.xml
 alpha;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\161\jl\res\anim\enterfromleft.xml
 alpha;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\161\jl\res\anim\exittoleft.xml
 alpha;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\163\jl\res\anim\nav_default_enter_anim.xml
@@ -17,6 +21,10 @@ attr;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj
 attr;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\163\jl\res\values\attr.xml
 background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo_round.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash_round.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\164\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
@@ -34,6 +42,10 @@ external-cache-path;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\Bod
 external-path;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\164\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo_round.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash_round.xml
 item;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\160\jl\res\values\styles.xml
 item;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\163\jl\res\drawable\maui_splash.xml
 item;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\163\jl\res\values\styles.xml
@@ -46,6 +58,10 @@ layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_imag
 microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\161\jl\res\layout\flyoutcontent.xml
 monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogo_round.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\applogosplash_round.xml
 paths;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\164\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 resources;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\160\jl\res\values\attrs.xml
 resources;C:\Users\samue\Desktop\ProyectoFinalGrado\BodyBalanceNow\BodyBalanceNow\obj\Debug\net8.0-android\lp\160\jl\res\values\styles.xml

@@ -220,6 +220,9 @@
 	  <MauiXaml Update="View\ViewWindows\RegistroSuenoWindows.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="View\View\Components\PromptPopup.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\View\ViewAndroid\StatisticsPageAndroid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -1,18 +1,18 @@
 using CommunityToolkit.Maui.Views;
 using System.Diagnostics;
 using BodyBalanceNow.Services;
-
+using BodyBalanceNow.View.Components;
 namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class ListaEjerciciosAndroid : ContentPage
 {
-    DatabaseServiceAndroid db;
+    DatabaseService db;
     int _idRutina;
 
     public ListaEjerciciosAndroid(int idRutina)
     {
         InitializeComponent();
-        db = new DatabaseServiceAndroid();
+        db = new DatabaseService();
         _idRutina = idRutina;
     }
 
@@ -53,24 +53,29 @@ public partial class ListaEjerciciosAndroid : ContentPage
                 break;
 
             case "Eliminar":
-                bool confirmar = await DisplayAlert("Eliminar ejercicio",
-                    $"¿Estás seguro de que quieres eliminar el ejercicio \"{ejercicio.NombreEjercicio}\"?", "Sí", "Cancelar");
-
-                if (confirmar)
                 {
+                    var popup = new ConfirmPopup($"¿Estás seguro de que quieres eliminar el ejercicio \"{ejercicio.NombreEjercicio}\"?");
+                    var confirmar = await this.ShowPopupAsync(popup) as bool?;
+
+                    if (confirmar != true) break;
+
                     int idEjRut = await db.ObtenerIdEjercicioEnRutinaAsync(_idRutina, idEjercicioRutina);
                     Debug.WriteLine($"ID del ejercicio para eliminar: {idEjercicioRutina}");
                     await db.EliminarEjercicioEnRutinaAsync(idEjRut);
-                    await DisplayAlert("Eliminado", "El ejercicio ha sido eliminado correctamente.", "OK");
+
+                    var popup2 = new CustomPopup("El ejercicio ha sido eliminado correctamente");
+                    this.ShowPopup(popup2);
                     cargarEjercicios();
+                    break;
                 }
-                break;
+
 
             case "Ver Detalles":
                 var ejercicioCompleto = await db.ObtenerEjercicioPorIdAsync(idEjercicioRutina);
                 if (ejercicioCompleto == null)
                 {
-                    await DisplayAlert("Error", "No se encontró el ejercicio.", "OK");
+                    var popup = new CustomPopup("No se encontró el ejercicio");
+                    this.ShowPopup(popup);
                     return;
                 }
                 var popupEditar = new ListaEjerciciosPopUpAndroid(ejercicioCompleto);

@@ -16,7 +16,7 @@ namespace BodyBalanceNow.View.ViewAndroid
 {
     public partial class RegistroSuenoAndroid : UraniumContentPage
     {
-        private ExerciseDatabaseAndroid baseDeDatos = new(); // Base de datos para Android
+        private ExerciseDatabase baseDeDatos = new(); // Base de datos para Android
         private int idUsuarioActual; // ID del usuario actual
         private bool usuarioAutenticado = false; // Indica si el usuario ha iniciado sesión
         private const double objetivoDiario = 8.0; // 8 horas recomendadas

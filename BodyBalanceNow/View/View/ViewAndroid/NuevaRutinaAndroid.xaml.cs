@@ -3,25 +3,27 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using BodyBalanceNow.Services;
 using UraniumUI.Pages;
+using BodyBalanceNow.View.Components;
+using Microsoft.Maui.Controls;
 
 namespace BodyBalanceNow.View.ViewAndroid
 {
     public partial class NuevaRutinaAndroid : UraniumContentPage
     {
         int idRutina = 0;
-        DatabaseServiceAndroid db;
+        DatabaseService db;
         ObservableCollection<Ejercicios> ListaResumen = new ObservableCollection<Ejercicios>();
         private int idUsuarioActual = Preferences.Get("current_user_id", -1);
         private bool usuarioAutenticado = false;
 
-        private int tamañoPagina = 30; // Número de registros por página
-        private int paginaActual = 1; // Página actual
-        private int totalPaginas; // Total de páginas
+        private int tamañoPagina = 30;
+        private int paginaActual = 1;
+        private int totalPaginas;
 
         public NuevaRutinaAndroid()
         {
             InitializeComponent();
-            db = new DatabaseServiceAndroid();
+            db = new DatabaseService();
         }
 
         protected override async void OnAppearing()
@@ -32,8 +34,9 @@ namespace BodyBalanceNow.View.ViewAndroid
 
             if (!usuarioAutenticado || idUsuarioActual == -1)
             {
-                await DisplayAlert("Atención", "Debes iniciar sesión para crear una rutina.", "Cerrar");
-                await Navigation.PopAsync(); // Regresar a la pantalla anterior
+                var popup = new CustomPopup("Debes iniciar sesión para crear una rutina.");
+                this.ShowPopup(popup);
+                await Navigation.PopAsync();
                 return;
             }
 
@@ -59,7 +62,8 @@ namespace BodyBalanceNow.View.ViewAndroid
             }
             else
             {
-                await DisplayAlert("Atención", "Estás en la primera página.", "Cerrar");
+                var popup = new CustomPopup("Estás en la primera página.");
+                this.ShowPopup(popup);
             }
         }
 
@@ -72,7 +76,8 @@ namespace BodyBalanceNow.View.ViewAndroid
             }
             else
             {
-                await DisplayAlert("Atención", "No hay más páginas disponibles.", "Cerrar");
+                var popup = new CustomPopup("No hay más páginas disponibles.");
+                this.ShowPopup(popup);
             }
         }
 
@@ -88,10 +93,10 @@ namespace BodyBalanceNow.View.ViewAndroid
                 return;
             }
 
-            // Comprobar si el ejercicio ya está en ListaResumen usando el ID
             if (ListaResumen.Any(ex => ex.ID == ejercicio.ID))
             {
-                DisplayAlert("Error", "Ejercicio ya añadido", "Cerrar");
+                var popup = new CustomPopup("Ejercicio ya añadido");
+                this.ShowPopup(popup);
                 return;
             }
 
@@ -119,11 +124,13 @@ namespace BodyBalanceNow.View.ViewAndroid
         {
             if (ListaResumen.Count == 0)
             {
-                await DisplayAlert("Atención", "No se pueden guardar rutinas vacías.", "Cerrar");
+                var popup = new CustomPopup("No se pueden guardar rutinas vacías.");
+                this.ShowPopup(popup);
                 return;
             }
 
-            string nombreRutina = await DisplayPromptAsync("Nueva Rutina", "Escribe el nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
+            var prompt = new PromptPopup("Escribe el nombre de la rutina", "...");
+            string nombreRutina = await this.ShowPopupAsync(prompt) as string;
 
             if (!string.IsNullOrEmpty(nombreRutina))
             {
@@ -135,11 +142,14 @@ namespace BodyBalanceNow.View.ViewAndroid
                 }
 
                 ListaResumen.Clear();
-                await DisplayAlert("Éxito", "Rutina Guardada", "Cerrar");
+
+                var popup = new CustomPopup("Rutina Guardada");
+                this.ShowPopup(popup);
             }
             else
             {
-                await DisplayAlert("Error", "El nombre de la rutina no puede estar vacío.", "Cerrar");
+                var popup = new CustomPopup("El nombre de la rutina no puede estar vacío.");
+                this.ShowPopup(popup);
             }
         }
 

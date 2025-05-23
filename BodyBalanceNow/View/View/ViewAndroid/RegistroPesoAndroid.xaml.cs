@@ -13,7 +13,7 @@ namespace BodyBalanceNow.View.ViewAndroid
 {
     public partial class RegistroPesoAndroid : UraniumContentPage
     {
-        private ExerciseDatabaseAndroid database = new(); // base de datos Android
+        private ExerciseDatabase database = new(); // base de datos Android
         private readonly int idUsuarioActual = Preferences.Get("current_user_id", -1); // ID del usuario actual
         private bool usuarioAutenticado = false; // Verifica si el usuario ha iniciado sesión
 

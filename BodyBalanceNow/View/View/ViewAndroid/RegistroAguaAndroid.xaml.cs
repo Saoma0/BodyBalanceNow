@@ -12,7 +12,7 @@ using System.Diagnostics;
 namespace BodyBalanceNow.View.ViewAndroid;
 public partial class RegistroAguaAndroid : UraniumContentPage
 {
-    private ExerciseDatabaseAndroid baseDeDatos = new(); // 👈 Cambia esto por tu base de datos real
+    private ExerciseDatabase baseDeDatos = new(); // 👈 Cambia esto por tu base de datos real
     private int idUsuarioActual; //ID del usuario actual
     private bool usuarioAutenticado = false; //  Verifica si el usuario ha iniciado sesión
     private const int objetivoDiario = 2000; //  Objetivo diario de 2 litros (2000 ml)

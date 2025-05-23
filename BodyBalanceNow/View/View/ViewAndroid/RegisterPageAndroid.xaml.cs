@@ -10,12 +10,12 @@ namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class RegisterPageAndroid : ContentPage
 {
-    private readonly UsuarioDatabaseAndroid _userDatabase; // Base de datos de usuarios
+    private readonly UsuarioDatabase _userDatabase; // Base de datos de usuarios
     bool isPasswordVisible = false; // Variable para controlar la visibilidad de la contraseña
     public RegisterPageAndroid()
 	{
 		InitializeComponent();
-        _userDatabase = new UsuarioDatabaseAndroid();
+        _userDatabase = new UsuarioDatabase();
 	}
 
     /// Método para registrar un nuevo usuario
@@ -62,7 +62,7 @@ public partial class RegisterPageAndroid : ContentPage
 
         try
         {
-            _userDatabase.RegistrarUsuarioAndroid(new_user);
+            _userDatabase.RegistrarUsuario(new_user);
             var popup = new CustomPopup("Usuario registrado correctamente");
             this.ShowPopup(popup);
             ClearEntrys();

@@ -16,7 +16,7 @@ namespace BodyBalanceNow.View.ViewAndroid
 {
     public partial class CalculadoraIMCAndroid : UraniumContentPage // ✅ CORREGIDO
     {
-        private ExerciseDatabaseAndroid baseDeDatos = new(); // Instancia de la base de datos
+        private ExerciseDatabase baseDeDatos = new(); // Instancia de la base de datos
         private double ultimoIMCCalculado; // Variable para almacenar el último IMC calculado
         private int idUsuarioActual = Preferences.Get("current_user_id", -1); // ID del usuario actual
         private bool usuarioAutenticado = false; // Variable para verificar si el usuario ha iniciado sesión

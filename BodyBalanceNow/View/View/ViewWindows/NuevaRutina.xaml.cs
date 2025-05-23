@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using BodyBalanceNow.Services;
-
+using BodyBalanceNow.View.Components;
 namespace BodyBalanceNow.View.ViewWindows
 {
     public partial class NuevaRutina : ContentPage
@@ -31,7 +31,9 @@ namespace BodyBalanceNow.View.ViewWindows
 
             if (!usuarioAutenticado || idUsuarioActual == -1)
             {
-                await DisplayAlert("Atención", "Debes iniciar sesión para crear una rutina.", "Cerrar");
+                
+                var popup = new CustomPopup("Debes iniciar sesión para crear una rutina.");
+                this.ShowPopup(popup);
                 await Navigation.PopAsync(); // Regresar a la pantalla anterior
                 return;
             }
@@ -58,7 +60,8 @@ namespace BodyBalanceNow.View.ViewWindows
             }
             else
             {
-                await DisplayAlert("Atención", "Estás en la primera página.", "Cerrar");
+                var popup = new CustomPopup("Estás en la primera página.");
+                this.ShowPopup(popup);
             }
         }
 
@@ -71,7 +74,8 @@ namespace BodyBalanceNow.View.ViewWindows
             }
             else
             {
-                await DisplayAlert("Atención", "No hay más páginas disponibles.", "Cerrar");
+                var popup = new CustomPopup("No hay más páginas disponibles.");
+                this.ShowPopup(popup);
             }
         }
 
@@ -90,7 +94,8 @@ namespace BodyBalanceNow.View.ViewWindows
             // Comprobar si el ejercicio ya está en ListaResumen usando el ID
             if (ListaResumen.Any(ex => ex.ID == ejercicio.ID))
             {
-                DisplayAlert("Error", "Ejercicio ya añadido", "Cerrar");
+                var popup = new CustomPopup("Ejercicio ya añadido");
+                this.ShowPopup(popup);
                 return;
             }
 
@@ -118,11 +123,13 @@ namespace BodyBalanceNow.View.ViewWindows
         {
             if (ListaResumen.Count == 0)
             {
-                await DisplayAlert("Atención", "No se pueden guardar rutinas vacías.", "Cerrar");
+                var popup = new CustomPopup("No se pueden guardar rutinas vacías.");
+                this.ShowPopup(popup);
                 return;
             }
 
-            string nombreRutina = await DisplayPromptAsync("Nueva Rutina", "Escribe el nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
+            var promptPopup = new PromptPopup("Escribe el nombre de la rutina", "...");
+            string nombreRutina = await this.ShowPopupAsync(promptPopup) as string;
 
             if (!string.IsNullOrEmpty(nombreRutina))
             {
@@ -134,13 +141,17 @@ namespace BodyBalanceNow.View.ViewWindows
                 }
 
                 ListaResumen.Clear();
-                await DisplayAlert("Éxito", "Rutina Guardada", "Cerrar");
+
+                var popup = new CustomPopup("Rutina Guardada");
+                this.ShowPopup(popup);
             }
             else
             {
-                await DisplayAlert("Error", "El nombre de la rutina no puede estar vacío.", "Cerrar");
+                var popup = new CustomPopup("El nombre de la rutina no puede estar vacío.");
+                this.ShowPopup(popup);
             }
         }
+
 
         private void OnInfo(object sender, EventArgs e)
         {

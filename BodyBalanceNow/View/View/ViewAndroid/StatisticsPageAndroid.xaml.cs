@@ -11,7 +11,7 @@ namespace BodyBalanceNow.View.ViewAndroid
 {
     public partial class StatisticsPageAndroid : ContentPage
     {
-        private ExerciseDatabaseAndroid _database;
+        private ExerciseDatabase _database;
         private int idUsuarioActual; // ID del usuario actual
         private bool usuarioAutenticado = false; // ¿El usuario ha iniciado sesión?
 
@@ -25,7 +25,7 @@ namespace BodyBalanceNow.View.ViewAndroid
         public StatisticsPageAndroid()
         {
             InitializeComponent();
-            _database = new ExerciseDatabaseAndroid();
+            _database = new ExerciseDatabase();
             CargarFiltros();
             // Asociar el PropertyChanged de los DropdownField normales
             pickerAño.PropertyChanged += PickerAño_PropertyChanged;

@@ -2,19 +2,19 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using BodyBalanceNow.Services;
 using CommunityToolkit.Maui.Views;
-
+using BodyBalanceNow.View.Components;
 namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class ListaRutinasAndroid : ContentPage
 {
-    DatabaseServiceAndroid db;
+    DatabaseService db;
     private int idUsuarioActual = Preferences.Get("current_user_id", -1);
     private bool usuarioAutenticado = false;
 
     public ListaRutinasAndroid()
     {
         InitializeComponent();
-        db = new DatabaseServiceAndroid();
+        db = new DatabaseService();
     }
 
     protected override async void OnAppearing()
@@ -25,7 +25,8 @@ public partial class ListaRutinasAndroid : ContentPage
 
         if (!usuarioAutenticado || idUsuarioActual == -1)
         {
-            await DisplayAlert("Atención", "Debes iniciar sesión para ver tus rutinas.", "Cerrar");
+            var popup = new CustomPopup("Debes iniciar sesión para ver tus rutinas");
+            this.ShowPopup(popup);
             await Navigation.PopAsync(); // opcional, si quieres salir de esta vista
             return;
         }
@@ -59,28 +60,34 @@ public partial class ListaRutinasAndroid : ContentPage
         switch (action)
         {
             case "Eliminar":
-                bool confirmar = await DisplayAlert("Eliminar rutina",
-                    $"¿Estás seguro de que quieres eliminar la rutina \"{rutina.NombreRutina}\"?", "Sí", "Cancelar");
+                var popupC = new ConfirmPopup($"¿Estás seguro de que quieres eliminar la rutina \"{rutina.NombreRutina}\"?");
+                var confirmar = await this.ShowPopupAsync(popupC) as bool?;
 
-                if (confirmar)
-                {
-                    await db.EliminarRutinaAsync(rutinaID);
-                    cargarRutinas();
-                }
+                if (confirmar != true) return;
+
+                await db.EliminarRutinaAsync(rutina.ID);
+                cargarRutinas();
                 break;
 
             case "Modificar":
-                string nombreRutina = await DisplayPromptAsync("Nuevo Nombre", "Escribe el nuevo nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
+                var popup = new PromptPopup("Escribe el nuevo nombre de la rutina", "...");
+                string nombreRutina = await this.ShowPopupAsync(popup) as string;
 
+                // Validación de entrada vacía o solo espacios
                 if (string.IsNullOrWhiteSpace(nombreRutina))
                 {
-                    await DisplayAlert("Nombre inválido", "El nombre no puede estar vacío.", "Aceptar");
+                    var popup2 = new CustomPopup("El nombre no puede estar vacío");
+                    this.ShowPopup(popup2);
                     break;
                 }
+
+                var popup3 = new CustomPopup("El nombre ha sido modificado");
+                this.ShowPopup(popup3);
 
                 await db.EditarNombreRutinaAsync(rutinaID, nombreRutina.Trim());
                 cargarRutinas();
                 break;
+
 
 
             case "Ver Detalles":

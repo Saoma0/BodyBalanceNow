@@ -14,7 +14,7 @@ namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class RegistroEstresAndroid : UraniumContentPage
 {
-    private ExerciseDatabaseAndroid baseDeDatos = new (); // Base de datos para Android
+    private ExerciseDatabase baseDeDatos = new (); // Base de datos para Android
     private int idUsuarioActual; // ID del usuario actual
     private bool usuarioAutenticado = false; // Indica si el usuario ha iniciado sesión
     public ObservableCollection<RegistroEstres> RegistrosEstres { get; set; } = new(); // Colección de registros de estrés

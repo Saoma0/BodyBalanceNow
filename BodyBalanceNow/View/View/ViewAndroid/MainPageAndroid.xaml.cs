@@ -9,14 +9,14 @@ namespace BodyBalanceNow.View.ViewAndroid;
 public partial class MainPageAndroid : ContentPage
 {
     private readonly Authenticacion _auth; // Servicio de autenticación
-    private readonly UsuarioDatabaseAndroid _userDatabase; //   Servicio de base de datos
+    private readonly UsuarioDatabase _userDatabase; //   Servicio de base de datos
     private bool isPasswordVisible = false; // Variable para controlar la visibilidad de la contraseña
 
     public MainPageAndroid()
     {
         InitializeComponent();
         _auth = new Authenticacion();
-        _userDatabase = new UsuarioDatabaseAndroid(); // Inicialización del servicio de base de datos
+        _userDatabase = new UsuarioDatabase(); // Inicialización del servicio de base de datos
         if (Preferences.ContainsKey("current_user_id"))
         {
             btnIniciarSesion.IsVisible = false;

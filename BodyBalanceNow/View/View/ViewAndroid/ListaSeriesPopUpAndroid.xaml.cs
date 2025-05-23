@@ -7,13 +7,13 @@ namespace BodyBalanceNow.View.ViewAndroid;
 
 public partial class ListaSeriesPopUpAndroid : Popup
 {
-    private DatabaseServiceAndroid db;
+    private DatabaseService db;
     private int _idEjercicioRutina, _idRutina;
 
     public ListaSeriesPopUpAndroid(int idEjercicioRutina, int idRutina)
     {
         InitializeComponent();
-        db = new DatabaseServiceAndroid();
+        db = new DatabaseService();
         _idEjercicioRutina = idEjercicioRutina;
         _idRutina = idRutina;
         

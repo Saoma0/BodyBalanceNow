@@ -1,7 +1,9 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using BodyBalanceNow.Services;
-
+using BodyBalanceNow.View.Components;
+using CommunityToolkit.Maui.Views;
+using BodyBalanceNow.View.Components;
 namespace BodyBalanceNow.View.ViewWindows;
 
 public partial class ListaRutinas : ContentPage
@@ -24,7 +26,9 @@ public partial class ListaRutinas : ContentPage
 
         if (!usuarioAutenticado || idUsuarioActual == -1)
         {
-            await DisplayAlert("Atención", "Debes iniciar sesión para ver tus rutinas.", "Cerrar");
+            var popup2 = new CustomPopup("Debes iniciar sesión para ver tus rutinas");
+            this.ShowPopup(popup2);
+
             await Navigation.PopAsync(); // opcional, si quieres salir de esta vista
             return;
         }
@@ -40,16 +44,24 @@ public partial class ListaRutinas : ContentPage
 
     private async void OnEditarClicked(object sender, EventArgs e)
     {
-        string nombreRutina = await DisplayPromptAsync("Nuevo Nombre", "Escribe el nuevo nombre de la rutina", "Guardar", "Cancelar", placeholder: "...", maxLength: 100);
+        var popup = new PromptPopup("Escribe el nuevo nombre de la rutina", "...");
+        string nombreRutina = await this.ShowPopupAsync(popup) as string;
 
         // Validación de entrada vacía o solo espacios
         if (string.IsNullOrWhiteSpace(nombreRutina))
         {
-            await DisplayAlert("Nombre inválido", "El nombre no puede estar vacío.", "Aceptar");
+            var popup2 = new CustomPopup("El nombre no puede estar vacío");
+            this.ShowPopup(popup2);
             return;
+
+        }
+        else
+        {
+            var popup3 = new CustomPopup("El nombre ha sido modificado");
+            this.ShowPopup(popup3);
         }
 
-        var imagebutton = sender as ImageButton;
+            var imagebutton = sender as ImageButton;
         if (imagebutton == null) return;
 
         var rutina = imagebutton.BindingContext as Rutina;
@@ -68,25 +80,22 @@ public partial class ListaRutinas : ContentPage
 
     private async void OnEliminarClicked(object sender, EventArgs e)
     {
-        var imagebutton = sender as ImageButton;
-        if (imagebutton == null) return;
-
-        var rutina = imagebutton.BindingContext as Rutina;
-        if (rutina == null)
+        if (sender is not ImageButton imageButton) return;
+        if (imageButton.BindingContext is not Rutina rutina)
         {
             Debug.WriteLine("No se pudo encontrar la rutina");
             return;
         }
 
-        bool confirmar = await DisplayAlert("Eliminar rutina",
-            $"¿Estás seguro de que quieres eliminar la rutina \"{rutina.NombreRutina}\"?", "Sí", "Cancelar");
+        var popup = new ConfirmPopup($"¿Estás seguro de que quieres eliminar la rutina \"{rutina.NombreRutina}\"?");
+        var confirmar = await this.ShowPopupAsync(popup) as bool?;
 
-        if (!confirmar) return;
+        if (confirmar != true) return;
 
-        int rutinaID = rutina.ID;
-        await db.EliminarRutinaAsync(rutinaID);
+        await db.EliminarRutinaAsync(rutina.ID);
         cargarRutinas();
     }
+
 
     private async void OnVerRutinaClicked(object sender, EventArgs e)
     {
